@@ -2,6 +2,7 @@ baseURL = 'https://qinxixuan.s8765301480.workers.dev/'
 locale = 'en-us'
 title = '勤嬉軒'
 theme = "PaperMod"
+disqusShortname = "qin-xi-xuan"
 
 [menu]
   [[menu.main]]
@@ -16,3 +17,6 @@ theme = "PaperMod"
     name = "桌遊心得"
     url = "/categories/boardgames/"
     weight = 30
+
+[params]
+  comments = true
