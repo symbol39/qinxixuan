@@ -1,16 +1,13 @@
 +++
-date = '2026-08-12T15:48:45+08:00'
+date = '2026-08-15T13:48:03+08:00'
 draft = false
-title = 'Cairn 2e翻譯：fletchwind（箭風者）'
+title = '【TRPG】Cairn 2e翻譯：fletchwind（箭風者）'
+summary = '你從遠處出手，但這不代表你是懦夫。你是個樂手，弓弦的樂音不過是一聲警告，靜靜承諾著一場迅速的死亡。'
 categories = ["Aurence"]
 tags = ["Cairn 2e","TRPG規則","TRPG規則翻譯"]
 +++
 
 > 你從遠處出手，但這不代表你是懦夫。你是個樂手，弓弦的樂音不過是一聲警告，靜靜承諾著一場迅速的死亡。
-
-
-<!--more-->
-
 
 ## 名字
 

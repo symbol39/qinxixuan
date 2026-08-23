@@ -1,14 +1,11 @@
 +++
-date = '2026-06-10T13:48:03+08:00'
+date = '2026-08-15T13:48:03+08:00'
 draft = false
 title = '【TRPG】Cairn 第二版：角色創建'
+summary = '本文講解 Cairn 2e 的角色創建規則'
 categories = ["Aurence"]
 tags = ["Cairn 2e","TRPG規則","TRPG規則翻譯"]
 +++
-
-本文翻譯自 Yochai Gal 的 **Cairn 第二版玩家指南**（cairnrpg.com），原文依 CC-BY-SA 4.0 授權發布，本翻譯同樣採用相同授權。
-
-<!--more-->
 
 ## 選擇或擲骰決定「背景」
 

@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>【TRPG】Cairn 第二版：角色創建 | 勤嬉軒</title>
+<meta name="keywords" content="Cairn 2e, TRPG規則, TRPG規則翻譯">
+<meta name="description" content="本文講解 Cairn 2e 的角色創建規則">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/cairn2e-character-creation/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/cairn2e-character-creation/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="勤嬉軒 (Alt + H)">勤嬉軒</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/categories/trpg/" title="TRPG">
+                    <span>TRPG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/aurence/" title="輝金世界">
+                    <span>輝金世界</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/boardgames/" title="桌遊心得">
+                    <span>桌遊心得</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      【TRPG】Cairn 第二版：角色創建
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-08-15 13:48:03 +0800 CST'>August 15, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h2 id="選擇或擲骰決定背景">選擇或擲骰決定「背景」<a hidden class="anchor" aria-hidden="true" href="#選擇或擲骰決定背景">#</a></h2>
+<ul>
+<li>從下方的<strong>背景表</strong>擲骰（d20）或直接選擇，記下對應頁碼。</li>
+<li>從該背景的可用名字清單中選一個名字，然後記錄起始物品（參見後面的「物品欄」說明）。</li>
+<li>擲骰決定背景表中各個子表的結果，記錄對應的物品、技能或能力。部分背景可能要求你參照<strong>市集</strong>頁面的表格。</li>
+</ul>
+<hr>
+<h3 id="背景表d20">背景表（d20）<a hidden class="anchor" aria-hidden="true" href="#背景表d20">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>d20</th>
+					<th>背景</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td>煉金師（Aurifex）</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>理髮外科醫（Barber-Surgeon）</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>馴獸師（Beast Handler）</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>骸骨守護者（Bonekeeper）</td>
+			</tr>
+			<tr>
+					<td>5</td>
+					<td>扒手（Cutpurse）</td>
+			</tr>
+			<tr>
+					<td>6</td>
+					<td>田野守衛（Fieldwarden）</td>
+			</tr>
+			<tr>
+					<td>7</td>
+					<td>箭風者（Fletchwind）</td>
+			</tr>
+			<tr>
+					<td>8</td>
+					<td>棄兒（Foundling）</td>
+			</tr>
+			<tr>
+					<td>9</td>
+					<td>菌菇採集者（Fungal Forager）</td>
+			</tr>
+			<tr>
+					<td>10</td>
+					<td>草藥智者（Greenwise）</td>
+			</tr>
+			<tr>
+					<td>11</td>
+					<td>半女巫（Half-Witch）</td>
+			</tr>
+			<tr>
+					<td>12</td>
+					<td>獵巫人（Hexenbane）</td>
+			</tr>
+			<tr>
+					<td>13</td>
+					<td>雜耍藝人（Jongleur）</td>
+			</tr>
+			<tr>
+					<td>14</td>
+					<td>鍋爐師（Kettlewright）</td>
+			</tr>
+			<tr>
+					<td>15</td>
+					<td>邊境衛兵（Marchguard）</td>
+			</tr>
+			<tr>
+					<td>16</td>
+					<td>江湖騙子（Mountebank）</td>
+			</tr>
+			<tr>
+					<td>17</td>
+					<td>遊騎兵（Outrider）</td>
+			</tr>
+			<tr>
+					<td>18</td>
+					<td>潛行者（Prowler）</td>
+			</tr>
+			<tr>
+					<td>19</td>
+					<td>溪流行者（Rill Runner）</td>
+			</tr>
+			<tr>
+					<td>20</td>
+					<td>抄寫員（Scrivener）</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="屬性值生命防護與特質">屬性值、生命防護與特質<a hidden class="anchor" aria-hidden="true" href="#屬性值生命防護與特質">#</a></h2>
+<ul>
+<li>擲骰決定角色的<strong>屬性值</strong>與<strong>生命防護（HP）</strong>。</li>
+<li>擲骰決定角色的各項<strong>特質</strong>，然後再擲<strong>羈絆表</strong>。</li>
+<li>最後擲骰決定角色的<strong>年齡</strong>（2d20+10）。若你是隊伍中<strong>最年輕</strong>的角色，則擲<strong>預兆表</strong>，結果需大聲唸給其他玩家聽。守護者（Warden）可自行決定如何將預兆融入場景設定。</li>
+</ul>
+<hr>
+<h3 id="屬性值">屬性值<a hidden class="anchor" aria-hidden="true" href="#屬性值">#</a></h3>
+<p>角色共有三項屬性值：</p>
+<ul>
+<li><strong>力量（STR）</strong></li>
+<li><strong>敏捷（DEX）</strong></li>
+<li><strong>意志（WIL）</strong></li>
+</ul>
+<p>三項屬性各自擲 3d6 決定，<strong>順序不可更改</strong>。擲完後可任意交換其中兩項的結果。</p>
+<blockquote>
+<p>屬性值不是絕對性的描述標籤。STR 低的角色並不代表軟弱無力——他仍然可以嘗試搬起厚重的大門或在殊死戰中存活；只是風險更高而已。</p>
+</blockquote>
+<hr>
+<h3 id="生命防護hp">生命防護（HP）<a hidden class="anchor" aria-hidden="true" href="#生命防護hp">#</a></h3>
+<ul>
+<li>擲 <strong>1d6</strong> 決定起始 HP，代表角色在戰鬥中<strong>閃避傷害</strong>的能力，並非生命值或體力的體現，且恢復相對快速。</li>
+<li>若某次攻擊剛好讓角色 HP 歸零，玩家必須擲<strong>傷痕表（Scars）</strong>。</li>
+</ul>
+<hr>
+<h3 id="物品欄">物品欄<a hidden class="anchor" aria-hidden="true" href="#物品欄">#</a></h3>
+<ul>
+<li>角色共有 <strong>10 個物品欄位</strong>，但若無背包、馬匹、推車等輔助，舒適攜帶上限約為 4～5 件物品。</li>
+<li>每個角色起始擁有一個<strong>背包</strong>，可容納最多 6 格物品或<strong>疲勞（Fatigue）</strong>。馬、騾、推車（需雙手推拉）能大幅增加攜帶量；<strong>雇員</strong>亦可付費幫忙搬運裝備。</li>
+<li>物品欄採抽象處理，實際裁量由守護者根據虛構情境決定。若所有 10 格均被填滿，角色 HP 降為 0；物品欄不可超過 10 格。</li>
+</ul>
+<h4 id="物品欄格數規則">物品欄格數規則<a hidden class="anchor" aria-hidden="true" href="#物品欄格數規則">#</a></h4>
+<ul>
+<li>大多數物品佔 <strong>1 格</strong>，另有標示者除外。</li>
+<li><strong>瑣碎（Petty）</strong> 物品<strong>不佔格</strong>；<strong>笨重（Bulky）</strong> 物品佔 <strong>2 格</strong>。</li>
+<li>價值低於 100gp 的一袋金幣屬於<strong>瑣碎</strong>物品，不佔格。</li>
+</ul>
+<hr>
+<h3 id="角色特質各擲-d10">角色特質（各擲 d10）<a hidden class="anchor" aria-hidden="true" href="#角色特質各擲-d10">#</a></h3>
+<h4 id="體型膚色髮型臉部">體型／膚色／髮型／臉部<a hidden class="anchor" aria-hidden="true" href="#體型膚色髮型臉部">#</a></h4>
+<table>
+	<thead>
+			<tr>
+					<th>d10</th>
+					<th>體型</th>
+					<th>膚色</th>
+					<th>髮型</th>
+					<th>臉部</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td>健美</td>
+					<td>有胎記</td>
+					<td>光頭</td>
+					<td>骨感</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>壯碩</td>
+					<td>有印記</td>
+					<td>辮子</td>
+					<td>破相</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>臃腫</td>
+					<td>油光</td>
+					<td>捲髮</td>
+					<td>稜角分明</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>細長</td>
+					<td>紅潤</td>
+					<td>骯髒</td>
+					<td>細長</td>
+			</tr>
+			<tr>
+					<td>5</td>
+					<td>粗獷</td>
+					<td>有傷疤</td>
+					<td>蓬亂</td>
+					<td>蒼白</td>
+			</tr>
+			<tr>
+					<td>6</td>
+					<td>瘦削</td>
+					<td>細嫩</td>
+					<td>長髮</td>
+					<td>完美</td>
+			</tr>
+			<tr>
+					<td>7</td>
+					<td>矮小</td>
+					<td>曬黑</td>
+					<td>豐盈亮澤</td>
+					<td>帥氣不羈</td>
+			</tr>
+			<tr>
+					<td>8</td>
+					<td>雕像般挺拔</td>
+					<td>有刺青</td>
+					<td>油膩</td>
+					<td>輪廓銳利</td>
+			</tr>
+			<tr>
+					<td>9</td>
+					<td>結實</td>
+					<td>風吹日曬</td>
+					<td>波浪狀</td>
+					<td>方正</td>
+			</tr>
+			<tr>
+					<td>10</td>
+					<td>高挑</td>
+					<td>蹼狀紋理</td>
+					<td>稀疏</td>
+					<td>凹陷</td>
+			</tr>
+	</tbody>
+</table>
+<h4 id="說話方式穿著美德惡習">說話方式／穿著／美德／惡習<a hidden class="anchor" aria-hidden="true" href="#說話方式穿著美德惡習">#</a></h4>
+<table>
+	<thead>
+			<tr>
+					<th>d10</th>
+					<th>說話方式</th>
+					<th>穿著</th>
+					<th>美德</th>
+					<th>惡習</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td>直接</td>
+					<td>古舊</td>
+					<td>野心勃勃</td>
+					<td>衝動好鬥</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>洪亮</td>
+					<td>血跡斑斑</td>
+					<td>謹慎</td>
+					<td>憤世嫉俗</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>晦澀</td>
+					<td>優雅</td>
+					<td>勇敢</td>
+					<td>懦弱</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>單調</td>
+					<td>骯髒</td>
+					<td>自律</td>
+					<td>善於欺騙</td>
+			</tr>
+			<tr>
+					<td>5</td>
+					<td>正式</td>
+					<td>異國風情</td>
+					<td>合群</td>
+					<td>貪婪</td>
+			</tr>
+			<tr>
+					<td>6</td>
+					<td>沙啞</td>
+					<td>破爛</td>
+					<td>重視榮譽</td>
+					<td>懶散</td>
+			</tr>
+			<tr>
+					<td>7</td>
+					<td>精準</td>
+					<td>邋遢寬鬆</td>
+					<td>謙遜</td>
+					<td>神經質</td>
+			</tr>
+			<tr>
+					<td>8</td>
+					<td>尖細</td>
+					<td>制服</td>
+					<td>慈悲</td>
+					<td>粗魯</td>
+			</tr>
+			<tr>
+					<td>9</td>
+					<td>口吃</td>
+					<td>惡臭</td>
+					<td>平靜</td>
+					<td>虛榮</td>
+			</tr>
+			<tr>
+					<td>10</td>
+					<td>輕聲細語</td>
+					<td>污漬遍布</td>
+					<td>包容</td>
+					<td>記仇</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="羈絆表d20">羈絆表（d20）<a hidden class="anchor" aria-hidden="true" href="#羈絆表d20">#</a></h2>
+<p>羈絆為角色與森林或過去之間的牽繫，通常附帶一件特殊的<strong>瑣碎</strong>物品或特殊情境。</p>
+<table>
+	<thead>
+			<tr>
+					<th>d20</th>
+					<th>羈絆內容</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td>你從已故遠親那繼承了一顆單一寶石（500gp，冰冷易碎）。附帶警告：若揮霍這筆意外之財，一筆久被遺忘的債務將被追討。</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>一位遠親留給你一小筆遺產。取得 20gp 與一個奇異羅盤（瑣碎），永遠指向森林深處某個方向。</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>你在一個小型墜飾裡藏著一幅肖像畫（瑣碎），畫中是昔日戀人，他早已消失在森林之中。你莫名確信他仍然活著。</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>你在泥土中找到一顆微型水晶稜鏡（瑣碎）。對光照射時，可見森林深處某個未知地點的景象。有時你感覺有什麼東西也在看著你。</td>
+			</tr>
+			<tr>
+					<td>5</td>
+					<td>你曾從堵塞的溪流中解救一隻水精靈。牠回贈你一些銀苔（瑣碎）。在水邊吞服，牠將來到，一次，以償還這份恩情。</td>
+			</tr>
+			<tr>
+					<td>6</td>
+					<td>你繼承了一本以樹皮裝訂的舊日誌。每天傍晚，頁面上會以日誌本身的視角粗糙地寫滿當日發生的事。文字寫得直白但內容準確。</td>
+			</tr>
+			<tr>
+					<td>7</td>
+					<td>你守護著家族長久以來的秘密。取得一把古老鑰匙的一半（瑣碎）。據說若與另一半合體，可穿透任何門扉開啟一道通道。</td>
+			</tr>
+			<tr>
+					<td>8</td>
+					<td>你收到一封信件（瑣碎），內附無可辯駁的證據，顯示你真正的血統來自妖精貴族。信中同時指示了一個你應前往赴約的日期與地點，就在森林深處。</td>
+			</tr>
+			<tr>
+					<td>9</td>
+					<td>你欠了一位貴族一筆大人情，隨身攜帶其印章戒指（瑣碎），既是保護的證明，也是你的義務憑證。</td>
+			</tr>
+			<tr>
+					<td>10</td>
+					<td>你吞下了一個頑皮靈魂，在你體內作亂，吵著要被帶回森林深處的家。它佔據一個欄位，但每天吸收一點疲勞。它暫時希望你活著。</td>
+			</tr>
+			<tr>
+					<td>11</td>
+					<td>一個漂泊的說書人曾對你講述藏在森林深處的巨大寶藏。你以為不過是奇談，直到他給了你一張標有 X 記號的捲起地圖（瑣碎）。</td>
+			</tr>
+			<tr>
+					<td>12</td>
+					<td>旅途中，你遇見一位垂死的獵人，請你將訊息帶給他的親人。取得一封信件（瑣碎），以樹脂封口，收件人只寫著冬之領主。</td>
+			</tr>
+			<tr>
+					<td>13</td>
+					<td>你曾在森林中發現一隻受傷的野獸，卻選擇視而不見。此後牠無處不在，只在你獨處時現身。牠神情落寞，但並不憤怒。獨自行動時，你不會進入驚恐狀態。</td>
+			</tr>
+			<tr>
+					<td>14</td>
+					<td>你答應一位兒時好友，要帶回一份世間獨一無二的稀奇禮物。取得一條用細繩與野花編成的手環（瑣碎）。</td>
+			</tr>
+			<tr>
+					<td>15</td>
+					<td>你曾得罪森林中的某個生靈，牠以石心詛咒了你。每過一個月，石頭就重一個欄位。在還清債務之前，你無法真正死亡。</td>
+			</tr>
+			<tr>
+					<td>16</td>
+					<td>你從某位橡木領主的枝幹上削了一根口哨（瑣碎）。這個舉動沒有被忽視。你似乎也無法拋棄這根口哨。</td>
+			</tr>
+			<tr>
+					<td>17</td>
+					<td>黎明旅團曾幫助過你的家族，給了你一朵曬乾的血紅花（瑣碎）作為憑證。當花朵轉白，代表是時候兌現這份恩情了。</td>
+			</tr>
+			<tr>
+					<td>18</td>
+					<td>一個藝人曾造訪你家，為屋內帶來歌聲與故事。他某天不告而別，只留下一把迷你魯特琴。搖晃時，裡面有什麼東西在響。</td>
+			</tr>
+			<tr>
+					<td>19</td>
+					<td>夢中，一隻白烏鴉口銜樹枝出現在你面前。次日清晨醒來，那根樹枝（瑣碎）就在你手中。你相信它能帶來好運。它帶著淡淡的硫磺氣味。</td>
+			</tr>
+			<tr>
+					<td>20</td>
+					<td>你的某位祖先曾得罪了一個苔蘚女巫，她對這條血脈下了詛咒。你的面孔會讓鏡子碎裂。你已注意到，那些碎片有時能揭露幻象。</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="預兆表d20">預兆表（d20）<a hidden class="anchor" aria-hidden="true" href="#預兆表d20">#</a></h2>
+<p><strong>由隊伍中最年輕的角色擲骰，結果大聲唸出。守護者將其融入世界設定。</strong></p>
+<table>
+	<thead>
+			<tr>
+					<th>d20</th>
+					<th>預兆內容</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td>一條曾滋養大地的豐沛河流，如今水色黑濁腐臭，汙染土地、毒害飲水的人。村中長老指向近日某次褻瀆之舉，卻少有人聽信。</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>今年的冬天似乎來得太早，霜雪比預期早了許多。有人說，窗上、池塘上、地縫裡出現的霜花形成某種規律，看起來像一張地圖。</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>濃厚的異常霧氣開始侵入一片古老聖林。據說這是一位強大的森林靈因附近伐木而震怒的結果。</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>夜空每晚都更昏暗一些，彷彿星辰正一顆顆消失。有關地獄生物抓走農民、將其拖入地根深處的傳言如野火蔓延，村中長老認為兩件事有所關聯。</td>
+			</tr>
+			<tr>
+					<td>5</td>
+					<td>森林中的鳴禽突然陷入詭異的沉默。獵人聲稱目擊到一個幽靈般的身影在林中徘徊，對每一個遇見它的人深情凝視。</td>
+			</tr>
+			<tr>
+					<td>6</td>
+					<td>全域各地出土了奇異的淚滴形石頭，引發珠寶商與盜賊競相尋覓。當地人相信這是大地本身的眼淚，為某場即將到來的大悲劇而哭泣。</td>
+			</tr>
+			<tr>
+					<td>7</td>
+					<td>成群的蟲害噬咬著人們的夢境邊緣，農人們聲稱聽見從森林深處傳來的巨大嗡鳴聲，而且聲音越來越近。</td>
+			</tr>
+			<tr>
+					<td>8</td>
+					<td>有個村落以其壯觀的「母樹」聞名，據說樹梢藏著全鎮的秘密。近日，樹木開始滲出紅色樹液，令長老們憂心忡忡。</td>
+			</tr>
+			<tr>
+					<td>9</td>
+					<td>月亮轉為深紅，以陰森的血色光芒籠罩夜晚。有人說這預示著混亂與衝突的到來，森林與凡間的界線正在變薄。</td>
+			</tr>
+			<tr>
+					<td>10</td>
+					<td>夜空中出現奇異的裂縫，透出旋渦狀的光與色彩。有人說數百年來，各界之間的隔閡從未如此脆弱，眾人恐懼著另一側可能湧現之物。</td>
+			</tr>
+			<tr>
+					<td>11</td>
+					<td>一種曾被認為已絕跡的夜開花卉，在森林各處紛紛萌芽。它的香氣令人沉醉，卻也引發生動的噩夢。</td>
+			</tr>
+			<tr>
+					<td>12</td>
+					<td>當地的牲畜近來愈發焦躁難以馴服。一位老牧羊人說，這是因為每逢滿月，森林中就會傳出令人不安的嚎叫聲。</td>
+			</tr>
+			<tr>
+					<td>13</td>
+					<td>大批昆蟲成群從森林中逃竄，所過之處，木製建築盡數破壞。牠們從頭頂飛過時，翅膀的嗡鳴聲哼著一段熟悉的曲調，像是某首被遺忘的兒歌。</td>
+			</tr>
+			<tr>
+					<td>14</td>
+					<td>獵人之間流傳著一個詛咒：凡獵殺帶有白色條紋毛皮的野獸者，不久後必死於自家之中。每一天，可獵之物都越來越少。</td>
+			</tr>
+			<tr>
+					<td>15</td>
+					<td>全城各處的水井裡都傳出輕聲的笑聲，人們說那笑聲到了夜晚會變成哭泣。</td>
+			</tr>
+			<tr>
+					<td>16</td>
+					<td>夜空中的星座正緩緩移位，形成陌生的排列，令占星師與智者百思不解，連動物也似乎深感不安。</td>
+			</tr>
+			<tr>
+					<td>17</td>
+					<td>一棵位於小村莊中心的古樹突然枯死，卻毫無病兆。鋸開樹幹後，在樹心發現了一隻血腥的手掌。</td>
+			</tr>
+			<tr>
+					<td>18</td>
+					<td>雕像哭泣著血淚已有數月，村中的女性也自此無一受孕。唯一的例外是一個孩子，被滿懷恐懼與敬畏的長老們秘密藏匿。</td>
+			</tr>
+			<tr>
+					<td>19</td>
+					<td>當地野生動物的行為變得異常——或攻擊性大增，或紛紛逃離該地。獵人們提到一個鬼魅般的身影在森林中遊蕩，呼喚著動物們。</td>
+			</tr>
+			<tr>
+					<td>20</td>
+					<td>邊境城鎮近週來動盪不安，多人聲稱一個身穿紅袍的身影出現在孩子的夢中，說出同樣的警告：火焰將至，它將吞噬一切。</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<p>原文出處：Cairn RPG 第二版玩家指南（cairnrpg.com）
+原文授權：<a href="https://creativecommons.org/licenses/by-sa/4.0">CC-BY-SA 4.0</a>
+本翻譯依同一授權條款（CC-BY-SA 4.0）提供。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/cairn-2e/">Cairn 2e</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87/">TRPG規則</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/">TRPG規則翻譯</a></li>
+    </ul>
+  </footer><div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "qin-xi-xuan" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">勤嬉軒</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -6,14 +6,21 @@
     <description>Recent content in Posts on 勤嬉軒</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2026 15:48:45 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 13:48:03 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>測試</title>
-      <link>http://localhost:1313/posts/%E6%B8%AC%E8%A9%A6/</link>
-      <pubDate>Sat, 01 Aug 2026 15:48:45 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%B8%AC%E8%A9%A6/</guid>
-      <description>&lt;p&gt;這是測試文章。&lt;/p&gt;</description>
+      <title>【TRPG】Cairn 2e翻譯：fletchwind（箭風者）</title>
+      <link>http://localhost:1313/posts/fletchwind/</link>
+      <pubDate>Sat, 15 Aug 2026 13:48:03 +0800</pubDate>
+      <guid>http://localhost:1313/posts/fletchwind/</guid>
+      <description>精準的獵人</description>
+    </item>
+    <item>
+      <title>【TRPG】Cairn 第二版：角色創建</title>
+      <link>http://localhost:1313/posts/cairn2e-character-creation/</link>
+      <pubDate>Sat, 15 Aug 2026 13:48:03 +0800</pubDate>
+      <guid>http://localhost:1313/posts/cairn2e-character-creation/</guid>
+      <description>本文講解 Cairn 2e 的角色創建規則</description>
     </item>
   </channel>
 </rss>
