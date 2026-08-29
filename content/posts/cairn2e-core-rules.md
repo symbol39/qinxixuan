@@ -2,7 +2,7 @@
 date = '2026-08-29T00:00:00+08:00'
 draft = false
 title = 'Cairn 2e翻譯：核心規則（Core Rules）'
-categories = ["Aurence"]
+categories = ["TRPG"]
 tags = ["Cairn 2e","TRPG規則","TRPG規則翻譯"]
 +++
 
