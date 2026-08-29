@@ -4,6 +4,7 @@ draft = false
 title = 'Cairn 2e翻譯：核心規則（Core Rules）'
 categories = ["TRPG"]
 tags = ["Cairn 2e","TRPG規則","TRPG規則翻譯"]
+weight = 10
 +++
 
 本文翻譯自 Cairn 第二版玩家指南（cairnrpg.com）中的核心規則篇章，原文依 CC-BY-SA 4.0 授權發布，本翻譯同樣採用相同授權。

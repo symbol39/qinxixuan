@@ -5,6 +5,7 @@ title = '【TRPG】Cairn 第二版：角色創建'
 summary = '本文講解 Cairn 2e 的角色創建規則'
 categories = ["TRPG"]
 tags = ["Cairn 2e","TRPG規則","TRPG規則翻譯"]
+weight = 20
 +++
 
 ## 選擇或擲骰決定「背景」
