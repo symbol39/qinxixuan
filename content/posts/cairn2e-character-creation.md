@@ -1,5 +1,5 @@
 +++
-date = '2026-07-02T13:48:03+08:00'
+date = '2026-08-30T13:48:03+08:00'
 draft = false
 title = '【TRPG】Cairn 第二版：角色創建'
 summary = '本文講解 Cairn 2e 的角色創建規則'
@@ -20,14 +20,14 @@ tags = ["Cairn 2e","TRPG規則","TRPG規則翻譯"]
 | d20 | 背景 |
 |---|---|
 | 1 | [煉金師（Aurifex）](https://pawntoh.com/posts/aurifex/) |
-| 2 | [理髮外科醫（Barber-Surgeon）] (https://pawntoh.com/posts/barber-surgeon/)|
+| 2 | [理髮外科醫（Barber-Surgeon）](https://pawntoh.com/posts/barber-surgeon/) |
 | 3 | [馴獸師（Beast Handler）](https://pawntoh.com/posts/beast-handler/) |
 | 4 | [骸骨守護者（Bonekeeper）](https://pawntoh.com/posts/bonekeeper/) |
 | 5 | [扒手（Cutpurse）](https://pawntoh.com/posts/cutpurse/) |
 | 6 | [田野守衛（Fieldwarden）](https://pawntoh.com/posts/fieldwarden/) |
 | 7 | [箭風者（Fletchwind）](https://pawntoh.com/posts/fletchwind/) |
 | 8 | [棄兒（Foundling）](https://pawntoh.com/posts/foundling/) |
-| 9 | 菌菇採集者（Fungal Forager） |
+| 9 | [菌菇採集者（Fungal Forager）](https://pawntoh.com/posts/fungal-forager/) |
 | 10 | [草藥智者（Greenwise）](https://pawntoh.com/posts/greenwise/) |
 | 11 | [半女巫（Half-Witch）](https://pawntoh.com/posts/half-witch/) |
 | 12 | [獵巫人（Hexenbane）](https://pawntoh.com/posts/hexenbane/) |
