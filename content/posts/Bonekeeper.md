@@ -23,7 +23,7 @@ Rook、Ebon、Moro、Yew、Pall、Leth、Bea、Barnaby、Vesper、Leder
 - 木樁（d6）
 - 鎖鏈（10英尺）
 
-## 你曾從死者那裡取走了什麼？擲1d6：
+## 你曾從死者那裡取走什麼？擲1d6：
 
 | 點數 | 結果 |
 |---|---|

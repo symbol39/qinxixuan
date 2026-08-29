@@ -1,5 +1,5 @@
 +++
-date = '2026-08-29T00:00:00+08:00'
+date = '2026-07-01T00:00:00+08:00'
 draft = false
 title = 'Cairn 2e翻譯：核心規則（Core Rules）'
 categories = ["TRPG"]
