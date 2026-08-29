@@ -17,6 +17,18 @@ disqusShortname = "qin-xi-xuan"
     name = "桌遊心得"
     url = "/categories/boardgames/"
     weight = 30
+  [[menu.main]]
+    name = "閱讀心得"
+    url = "/categories/boardgames/"
+    weight = 40
+  [[menu.main]]
+    name = "電玩分享"
+    url = "/categories/boardgames/"
+    weight = 50
+  [[menu.main]]
+    name = "影視心得"
+    url = "/categories/boardgames/"
+    weight = 30
 
 [params]
   comments = true
