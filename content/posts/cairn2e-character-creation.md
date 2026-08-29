@@ -19,7 +19,7 @@ tags = ["Cairn 2e","TRPG規則","TRPG規則翻譯"]
 
 | d20 | 背景 |
 |---|---|
-| 1 | 煉金師（Aurifex） |
+| 1 | [煉金師（Aurifex）](https://pawntoh.com/posts/aurifex/) |
 | 2 | 理髮外科醫（Barber-Surgeon） |
 | 3 | 馴獸師（Beast Handler） |
 | 4 | 骸骨守護者（Bonekeeper） |
