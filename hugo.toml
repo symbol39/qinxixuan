@@ -28,7 +28,7 @@ disqusShortname = "qin-xi-xuan"
   [[menu.main]]
     name = "影視心得"
     url = "/categories/boardgames/"
-    weight = 30
+    weight = 60
 
 [params]
   comments = true

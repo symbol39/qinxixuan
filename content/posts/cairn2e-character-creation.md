@@ -26,19 +26,19 @@ tags = ["Cairn 2e","TRPG規則","TRPG規則翻譯"]
 | 5 | 扒手（Cutpurse） |
 | 6 | 田野守衛（Fieldwarden） |
 | 7 | [箭風者（Fletchwind）](https://pawntoh.com/posts/fletchwind/) |
-| 8 | 棄兒（Foundling） |
+| 8 | [棄兒（Foundling）](https://pawntoh.com/posts/foundling/) |
 | 9 | 菌菇採集者（Fungal Forager） |
-| 10 | 草藥智者（Greenwise） |
-| 11 | 半女巫（Half-Witch） |
-| 12 | 獵巫人（Hexenbane） |
-| 13 | 雜耍藝人（Jongleur） |
-| 14 | 鍋爐師（Kettlewright） |
-| 15 | 邊境衛兵（Marchguard） |
-| 16 | 江湖騙子（Mountebank） |
-| 17 | 遊騎兵（Outrider） |
-| 18 | 潛行者（Prowler） |
-| 19 | 溪流行者（Rill Runner） |
-| 20 | 抄寫員（Scrivener） |
+| 10 | [草藥智者（Greenwise）](https://pawntoh.com/posts/greenwise/) |
+| 11 | [半女巫（Half-Witch）](https://pawntoh.com/posts/half-witch/) |
+| 12 | [獵巫人（Hexenbane）](https://pawntoh.com/posts/hexenbane/) |
+| 13 | [雜耍藝人（Jongleur）](https://pawntoh.com/posts/jongleur/) |
+| 14 | [鍋爐師（Kettlewright）](https://pawntoh.com/posts/kettlewright/) |
+| 15 | [邊境衛兵（Marchguard）](https://pawntoh.com/posts/marchguard/) |
+| 16 | [江湖騙子（Mountebank）](https://pawntoh.com/posts/mountebank/) |
+| 17 | [遊騎兵（Outrider）](https://pawntoh.com/posts/outrider/) |
+| 18 | [潛行者（Prowler）](https://pawntoh.com/posts/prowler/) |
+| 19 | [溪流行者（Rill Runner）](https://pawntoh.com/posts/rill-runner/) |
+| 20 | [抄寫員（Scrivener）](https://pawntoh.com/posts/scrivener/) |
 
 ---
 
