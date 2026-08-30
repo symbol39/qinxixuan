@@ -57,6 +57,7 @@ Solena、Veles、Bryn、Sabine、Razvan、Rowena、Galen、Nyx、Vex、Iwan
 
 **6. 咒印石**
 採集自一條源自*彼岸*的河流。從鐵盒中取出後，可吸收一個正在生效的魔法效果。若此石被摧毀，該魔法效果將被釋放。1次使用。
+
 ---
 
 原文出處：[Cairn RPG - Half Witch](https://cairnrpg.com/second-edition/backgrounds/half-witch/)
