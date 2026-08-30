@@ -1,7 +1,7 @@
 +++
 date = '2026-08-29T13:48:03+08:00'
 draft = false
-title = '【TRPG】Cairn 第二版：角色創建'
+title = 'Cairn 2e：角色創建'
 summary = '本文講解 Cairn 2e 的角色創建規則'
 categories = ["TRPG"]
 tags = ["Cairn 2e","TRPG規則","TRPG規則翻譯"]
