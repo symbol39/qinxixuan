@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>最終物語 on 勤嬉軒</title>
+    <link>http://localhost:1313/tags/%E6%9C%80%E7%B5%82%E7%89%A9%E8%AA%9E/</link>
+    <description>Recent content in 最終物語 on 勤嬉軒</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Sep 2024 16:57:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%9C%80%E7%B5%82%E7%89%A9%E8%AA%9E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fabula Ultima：新手規則指南</title>
+      <link>http://localhost:1313/posts/fabula-ultima-xinshou-guize/</link>
+      <pubDate>Fri, 06 Sep 2024 16:57:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/fabula-ultima-xinshou-guize/</guid>
+      <description>&lt;p&gt;這篇文章是整理與介紹遊玩 Fabula Ultima（下稱FU） 需要瞭解的基本規則，希望幫助玩家在最短時間內就能對FU有基礎的認識，且能順利開始創造角色並進行遊戲。如果你想瞭解更多規則細節，或者你是GM（辛苦了GM），請參考：&lt;a href=&#34;https://vocus.cc/article/678e361efd89780001f81c07&#34;&gt;Fabula Ultima：規則筆記&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;為了方便解釋規則，在這篇文章中我們會使用玩家胖胖的角色：傑克，作為範例。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

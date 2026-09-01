@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Cairn 2e翻譯：marchguard（邊境衛兵） | 勤嬉軒</title>
+<meta name="keywords" content="Cairn 2e, TRPG規則, TRPG規則翻譯">
+<meta name="description" content="
+以血誓束縛，巡守邊境，守護王國。一旦立下誓言，便不可違背。衛兵總能找到彼此。
+">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/marchguard/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/marchguard/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="勤嬉軒 (Alt + H)">勤嬉軒</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/search/" title="搜尋">
+                    <span>搜尋</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/trpg/" title="TRPG">
+                    <span>TRPG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/aurence/" title="輝金世界">
+                    <span>輝金世界</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/boardgames/" title="桌遊心得">
+                    <span>桌遊心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/read/" title="閱讀心得">
+                    <span>閱讀心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/videogames/" title="電玩分享">
+                    <span>電玩分享</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/drama/" title="影視心得">
+                    <span>影視心得</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Cairn 2e翻譯：marchguard（邊境衛兵）
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-08-29 00:00:00 +0800 CST'>August 29, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><blockquote>
+<p>以血誓束縛，巡守邊境，守護王國。一旦立下誓言，便不可違背。衛兵總能找到彼此。</p>
+</blockquote>
+<h2 id="名字">名字<a hidden class="anchor" aria-hidden="true" href="#名字">#</a></h2>
+<p>Gann、Light、Saoirse、Frost、Thorn、Reed、Dirk、Ragnar、Brie、Aasim</p>
+<h2 id="起始裝備">起始裝備<a hidden class="anchor" aria-hidden="true" href="#起始裝備">#</a></h2>
+<ul>
+<li>3d6 金幣</li>
+<li>口糧（3次使用）</li>
+<li>提燈</li>
+<li>油罐（6次使用）</li>
+<li>長劍（d10，<em>笨重</em>）</li>
+<li>煮製皮甲（1點護甲）</li>
+</ul>
+<h2 id="你為何立下誓言">你為何立下誓言？<a hidden class="anchor" aria-hidden="true" href="#你為何立下誓言">#</a></h2>
+<p><strong>1.</strong> 你的家族有著悠久的從軍傳統，你自幼便接受如何在荒野中求生的訓練。進行「補給」行動時，你的獲取量提升一階（例如1d4變成1d6）。</p>
+<p><strong>2.</strong> 身為囚犯，立下誓言不過是躲避懲罰的一種手段。取得一組<strong>開鎖工具</strong>與一把安全屋的<strong>鑰匙</strong>（<em>瑣碎</em>）。</p>
+<p><strong>3.</strong> 出身貴族的你，加入衛隊是為了逃離家族的紛爭。取得一張離家前偷來的<strong>鵝絨防水布</strong>（可容納兩人）。</p>
+<p><strong>4.</strong> 當你的家族失去一切後，你立下誓言以避免成為家人的負擔。取得額外的<strong>口糧</strong>（3次使用）與一組<strong>擲刀</strong>（d6）。</p>
+<p><strong>5.</strong> 你的性命曾由一名<strong>邊境衛兵</strong>所救，這激勵了你加入他們的行列。取得一個<strong>捕獸陷阱</strong>與一本畫滿精細圖畫的<strong>素描本</strong>。</p>
+<p><strong>6.</strong> 你曾陷入人生的低谷，決定自己的生活需要一點方向。你至今仍不確定這是不是正確的選擇。取得一件<strong>油布外套</strong>與<strong>繪圖紙</strong>。</p>
+<h2 id="你隨身攜帶著什麼作為你誓言的證明">你隨身攜帶著什麼作為你誓言的證明？<a hidden class="anchor" aria-hidden="true" href="#你隨身攜帶著什麼作為你誓言的證明">#</a></h2>
+<p><strong>1. 顯赫徽章</strong>
+一枚衛隊頒發的金屬榮譽徽章。能開啟門扉，但會留下痕跡。<em>瑣碎</em>。</p>
+<p><strong>2. 誓約羅盤</strong>
+指向的不是北方，而是最近的一名衛隊成員所在方位。同時也能讓你知道對方何時逐漸接近。</p>
+<p><strong>3. 牽引石</strong>
+兩顆漆黑如墨的石頭。分開後，兩石總會自行朝彼此滾動靠近。</p>
+<p><strong>4. 火焰瓶</strong>
+酒精濃度極高，卻異常美味。投擲後會形成一道高達10呎的火牆，數分鐘後燃盡。1次使用。</p>
+<p><strong>5. 痛楚環帶</strong>
+觸碰一名受傷的生物，即可將其傷勢轉移至自己身上（以你自身的力量與對方所失去的力量互換）。<strong>充能</strong>：在完全健康的狀態下配戴此戒指。你將永久失去1點力量。<em>瑣碎</em>。</p>
+<p><strong>6. 獵人的哀愁</strong>
+氣味濃烈的箭矢（3次使用）。氣味強烈到足以輕易追蹤獵物。</p>
+<hr>
+<p>原文出處：<a href="https://cairnrpg.com/second-edition/backgrounds/marchguard/">Cairn RPG - Marchguard</a>
+原文授權：<a href="https://creativecommons.org/licenses/by-sa/4.0">CC-BY-SA 4.0</a>
+本翻譯依同一授權條款（CC-BY-SA 4.0）提供。</p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/cairn-2e/">Cairn 2e</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87/">TRPG規則</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/">TRPG規則翻譯</a></li>
+    </ul>
+  </footer><div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "qin-xi-xuan" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">勤嬉軒</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

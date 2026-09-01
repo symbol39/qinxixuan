@@ -6,6 +6,10 @@ disqusShortname = "qin-xi-xuan"
 
 [menu]
   [[menu.main]]
+  name = "搜尋"
+  url = "/search/"
+  weight = 9
+  [[menu.main]]
     name = "TRPG"
     url = "/categories/trpg/"
     weight = 10
@@ -33,3 +37,6 @@ disqusShortname = "qin-xi-xuan"
 [params]
   comments = true
   description = "勤嬉軒——TRPG翻譯、原創世界觀輝金世界、桌遊、電玩和影視心得分享"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

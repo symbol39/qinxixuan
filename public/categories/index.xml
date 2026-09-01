@@ -6,14 +6,49 @@
     <description>Recent content in Categories on 勤嬉軒</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Aug 2026 13:48:03 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>輝金世界</title>
       <link>http://localhost:1313/categories/aurence/</link>
-      <pubDate>Sat, 15 Aug 2026 13:48:03 +0800</pubDate>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/categories/aurence/</guid>
-      <description>&lt;p&gt;輝金世界(Aurence)是一個原創的劍、魔法與投機狂熱的TRPG世界觀,這裡收錄了世界觀設定、原創小說與TRPG冒險模組相關的文章。&lt;/p&gt;</description>
+      <description>&lt;p&gt;輝金世界(Aurence)是一個原創的劍、魔法與投機狂熱的TRPG世界觀，這裡收錄了世界觀設定、原創小說與TRPG冒險模組相關的文章。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TRPG</title>
+      <link>http://localhost:1313/categories/trpg/</link>
+      <pubDate>Sat, 29 Aug 2026 13:48:03 +0800</pubDate>
+      <guid>http://localhost:1313/categories/trpg/</guid>
+      <description>&lt;p&gt;各類TRPG的介紹、翻譯&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>影視心得</title>
+      <link>http://localhost:1313/categories/drama/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/drama/</guid>
+      <description>&lt;p&gt;分享個人觀賞動畫、電影、戲劇的心得&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>桌遊心得</title>
+      <link>http://localhost:1313/categories/boardgames/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/boardgames/</guid>
+      <description>&lt;p&gt;介紹各種桌遊的遊玩心得與評價&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>閱讀心得</title>
+      <link>http://localhost:1313/categories/read/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/read/</guid>
+      <description>&lt;p&gt;分享個人讀書的筆記與心得&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>電玩分享</title>
+      <link>http://localhost:1313/categories/videogames/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/videogames/</guid>
+      <description>&lt;p&gt;分享有趣的PC遊戲&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

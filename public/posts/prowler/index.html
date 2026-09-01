@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Cairn 2e翻譯：prowler（潛行者） | 勤嬉軒</title>
+<meta name="keywords" content="Cairn 2e, TRPG規則, TRPG規則翻譯">
+<meta name="description" content="
+你是夜色中的幽靈，一道悄然滑過獵物身邊、不被察覺的稍縱即逝的影子。每一次獵殺都是一場狡黠與野性意志的考驗，是一場生與死的較量。你知道終有一天你會落敗。你也期待著那一天的到來。
+">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/prowler/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/prowler/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="勤嬉軒 (Alt + H)">勤嬉軒</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/search/" title="搜尋">
+                    <span>搜尋</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/trpg/" title="TRPG">
+                    <span>TRPG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/aurence/" title="輝金世界">
+                    <span>輝金世界</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/boardgames/" title="桌遊心得">
+                    <span>桌遊心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/read/" title="閱讀心得">
+                    <span>閱讀心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/videogames/" title="電玩分享">
+                    <span>電玩分享</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/drama/" title="影視心得">
+                    <span>影視心得</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Cairn 2e翻譯：prowler（潛行者）
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-08-29 00:00:00 +0800 CST'>August 29, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><blockquote>
+<p>你是夜色中的幽靈，一道悄然滑過獵物身邊、不被察覺的稍縱即逝的影子。每一次獵殺都是一場狡黠與野性意志的考驗，是一場生與死的較量。你知道終有一天你會落敗。你也期待著那一天的到來。</p>
+</blockquote>
+<h2 id="名字">名字<a hidden class="anchor" aria-hidden="true" href="#名字">#</a></h2>
+<p>Winda、Brielle、Theron、Chayse、Nuja、Dev、Raven、Arawan、Sable、Baruani</p>
+<h2 id="起始裝備">起始裝備<a hidden class="anchor" aria-hidden="true" href="#起始裝備">#</a></h2>
+<ul>
+<li>3d6 金幣</li>
+<li>口糧（3次使用）</li>
+<li>火把（3次使用）</li>
+<li>防水布</li>
+<li>煮製皮甲（1點護甲）</li>
+<li>短劍（d6）</li>
+<li>彈簧陷阱（造成4點力量傷害）</li>
+</ul>
+<h2 id="你上一次獵捕的是什麼擲1d6">你上一次獵捕的是什麼？擲1d6：<a hidden class="anchor" aria-hidden="true" href="#你上一次獵捕的是什麼擲1d6">#</a></h2>
+<p><strong>1.</strong> 一隻<em>擬態螢火蟲</em>，以發光的誘餌引誘挑水人上鉤。取得一隻<strong>煉金義肢</strong>（d8，佩戴時視為<em>瑣碎</em>），用以替代被牠扯掉的那隻，並附贈一罐<strong>油罐</strong>（6次使用）。此義肢能免疫高溫與毒素，需每天上油保養。</p>
+<p><strong>2.</strong> 一隻<em>冰蕁麻</em>，用以誘捕並吸乾綿羊的體液。你引進的真菌害死了半群綿羊，因此丟了這份差事。取得一顆<strong>寒霜種子</strong>（1次使用），能凍結任何大小的水體，切勿食用。</p>
+<p><strong>3.</strong> 一隻<em>銀色沼澤爬行者</em>，殺死了你身邊親近的人。你如今將牠的<strong>獠牙</strong>（<em>瑣碎</em>）掛在項鍊上戴在頸間，作為警示同類的信物。<em>每當有東西潛行接近你時，這顆獠牙便會發出輕柔的嗡鳴聲</em>。</p>
+<p><strong>4.</strong> 一隻惡毒的<em>森林靈</em>，曾毒害一戶莊園。你從一棵垂死之樹的根部搶救出一顆<strong>心種</strong>（種下它可孕育出一片新的森林）。此外，還取得一副<strong>鐵護腕</strong>（+1護甲，<em>笨重</em>）。</p>
+<p><strong>5.</strong> 一隻曾使旅人聞風喪膽的<em>空心狼</em>。你憐憫這隻半飢餓的生物，將牠悉心照料至康復。如今牠對你忠心至死，同時也是一名優秀的挖掘者。5點生命，11點力量，13點敏捷，8點意志，撕咬(d6)。</p>
+<p><strong>6.</strong> 一隻<em>天青囀鳥</em>。若處理得當，牠的配子能帶來可觀的利潤。你成功了，卻將牠的巢穴留給了群狼。取得一把<strong>削皮刀</strong>（d6）、額外<strong>20金幣</strong>，以及一絲懊悔。</p>
+<h2 id="你背包裡總是隨身攜帶著什麼工具擲1d6">你背包裡總是隨身攜帶著什麼工具？擲1d6：<a hidden class="anchor" aria-hidden="true" href="#你背包裡總是隨身攜帶著什麼工具擲1d6">#</a></h2>
+<p><strong>1. 發酵烈酒</strong>
+在最好的時候能為你保暖，在最壞的時候則能當作爆炸物使用。3次使用。</p>
+<p><strong>2. 驚跡搖鈴</strong>
+一種嘈雜的樂器，能揭示附近的蹤跡，即使隱藏得再深也不例外。</p>
+<p><strong>3. 昏睡膏</strong>
+一塊蠟狀藥膏。若放入水中煮沸，蒸氣具有催眠效果。</p>
+<p><strong>4. 釘與繩索</strong>
+用於穿越困難地形，或用來製作臨時陷阱與結構。</p>
+<p><strong>5. 鐵鳴鈴</strong>
+一種用來分散注意力或嚇跑獵物的發聲器，聽起來與蛇的聲音極為相似，足以以假亂真。</p>
+<p><strong>6. 硬化膠</strong>
+能使任何扁平材質（布料、皮革、沙子）變得堅硬如石。價格昂貴（每瓶20金幣，3次使用）。</p>
+<hr>
+<p>原文出處：<a href="https://cairnrpg.com/second-edition/backgrounds/prowler/">Cairn RPG - Prowler</a>
+原文授權：<a href="https://creativecommons.org/licenses/by-sa/4.0">CC-BY-SA 4.0</a>
+本翻譯依同一授權條款（CC-BY-SA 4.0）提供。</p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/cairn-2e/">Cairn 2e</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87/">TRPG規則</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/">TRPG規則翻譯</a></li>
+    </ul>
+  </footer><div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "qin-xi-xuan" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">勤嬉軒</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

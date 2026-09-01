@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>輝金世界 on 勤嬉軒</title>
+    <link>http://localhost:1313/tags/%E8%BC%9D%E9%87%91%E4%B8%96%E7%95%8C/</link>
+    <description>Recent content in 輝金世界 on 勤嬉軒</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Aug 2026 00:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%BC%9D%E9%87%91%E4%B8%96%E7%95%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你的故事：第一回</title>
+      <link>http://localhost:1313/posts/na-ge-yichang-de-zaochen/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/na-ge-yichang-de-zaochen/</guid>
+      <description>&lt;p&gt;你走在平時通勤的路上。總覺得今天似乎有點不一樣。&lt;/p&gt;
+&lt;p&gt;叫賣自己種的蔬菜的攤販今天沒有出現。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

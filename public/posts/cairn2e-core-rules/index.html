@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Cairn 2e翻譯：核心規則（Core Rules） | 勤嬉軒</title>
+<meta name="keywords" content="Cairn 2e, TRPG規則, TRPG規則翻譯">
+<meta name="description" content="本文翻譯自 Cairn 第二版玩家指南（cairnrpg.com）中的核心規則篇章，原文依 CC-BY-SA 4.0 授權發布，本翻譯同樣採用相同授權。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/cairn2e-core-rules/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/cairn2e-core-rules/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="勤嬉軒 (Alt + H)">勤嬉軒</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/search/" title="搜尋">
+                    <span>搜尋</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/trpg/" title="TRPG">
+                    <span>TRPG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/aurence/" title="輝金世界">
+                    <span>輝金世界</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/boardgames/" title="桌遊心得">
+                    <span>桌遊心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/read/" title="閱讀心得">
+                    <span>閱讀心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/videogames/" title="電玩分享">
+                    <span>電玩分享</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/drama/" title="影視心得">
+                    <span>影視心得</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Cairn 2e翻譯：核心規則（Core Rules）
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-08-29 00:00:00 +0800 CST'>August 29, 2026</span>
+
+</div>
+  </header> <details class="toc"  open>
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#%e5%b1%ac%e6%80%a7%e5%80%bcattributes" aria-label="屬性值（Attributes）">屬性值（Attributes）</a></li>
+            <li>
+                <a href="#%e8%b1%81%e5%85%8dsaves" aria-label="豁免（Saves）">豁免（Saves）</a></li>
+            <li>
+                <a href="#%e6%b2%bb%e7%99%82%e8%88%87%e6%81%a2%e5%be%a9healing--recovery" aria-label="治療與恢復（Healing &amp; Recovery）">治療與恢復（Healing &amp; Recovery）</a></li>
+            <li>
+                <a href="#%e5%8c%b1%e4%b9%8f%e8%88%87%e7%96%b2%e5%8b%9edeprivation--fatigue" aria-label="匱乏與疲勞（Deprivation &amp; Fatigue）">匱乏與疲勞（Deprivation &amp; Fatigue）</a></li>
+            <li>
+                <a href="#%e8%ad%b7%e7%94%b2armor" aria-label="護甲（Armor）">護甲（Armor）</a></li>
+            <li>
+                <a href="#%e5%8f%8d%e6%87%89reactions" aria-label="反應（Reactions）">反應（Reactions）</a></li>
+            <li>
+                <a href="#%e5%a3%ab%e6%b0%a3morale" aria-label="士氣（Morale）">士氣（Morale）</a></li>
+            <li>
+                <a href="#%e9%9b%87%e5%93%a1hirelings" aria-label="雇員（Hirelings）">雇員（Hirelings）</a></li>
+            <li>
+                <a href="#%e5%91%bd%e9%81%8b%e9%aa%b0die-of-fate" aria-label="命運骰（Die of Fate）">命運骰（Die of Fate）</a></li>
+            <li>
+                <a href="#%e6%88%b0%e9%ac%a5combat" aria-label="戰鬥（Combat）">戰鬥（Combat）</a><ul>
+                    
+            <li>
+                <a href="#%e5%9b%9e%e5%90%88rounds" aria-label="回合（Rounds）">回合（Rounds）</a></li>
+            <li>
+                <a href="#%e8%a1%8c%e5%8b%95actions" aria-label="行動（Actions）">行動（Actions）</a></li>
+            <li>
+                <a href="#%e6%94%bb%e6%93%8a%e8%88%87%e5%82%b7%e5%ae%b3attacking--damage" aria-label="攻擊與傷害（Attacking &amp; Damage）">攻擊與傷害（Attacking &amp; Damage）</a></li>
+            <li>
+                <a href="#%e6%94%bb%e6%93%8a%e4%bf%ae%e6%ad%a3attack-modifiers" aria-label="攻擊修正（Attack Modifiers）">攻擊修正（Attack Modifiers）</a></li>
+            <li>
+                <a href="#%e9%87%8d%e6%93%8a%e5%82%b7%e5%ae%b3critical-damage" aria-label="重擊傷害（Critical Damage）">重擊傷害（Critical Damage）</a></li>
+            <li>
+                <a href="#%e5%b1%ac%e6%80%a7%e5%80%bc%e6%90%8d%e5%a4%b1attribute-loss" aria-label="屬性值損失（Attribute Loss）">屬性值損失（Attribute Loss）</a></li>
+            <li>
+                <a href="#%e8%a7%92%e8%89%b2%e6%ad%bb%e4%ba%a1character-death" aria-label="角色死亡（Character Death）">角色死亡（Character Death）</a></li>
+            <li>
+                <a href="#%e5%88%86%e9%9a%8adetachments" aria-label="分隊（Detachments）">分隊（Detachments）</a></li>
+            <li>
+                <a href="#%e6%92%a4%e9%80%80retreat" aria-label="撤退（Retreat）">撤退（Retreat）</a></li>
+            <li>
+                <a href="#%e9%81%a0%e7%a8%8b%e6%94%bb%e6%93%8aranged-attacks" aria-label="遠程攻擊（Ranged Attacks）">遠程攻擊（Ranged Attacks）</a></li></ul>
+            </li>
+            <li>
+                <a href="#%e5%82%b7%e7%97%95scars" aria-label="傷痕（Scars）">傷痕（Scars）</a><ul>
+                    
+            <li>
+                <a href="#%e5%82%b7%e7%97%95%e8%a1%a8" aria-label="傷痕表">傷痕表</a></li></ul>
+            </li>
+            <li>
+                <a href="#%e9%ad%94%e6%b3%95magic" aria-label="魔法（Magic）">魔法（Magic）</a><ul>
+                    
+            <li>
+                <a href="#%e6%b3%95%e8%a1%93%e6%9b%b8spellbooks" aria-label="法術書（Spellbooks）">法術書（Spellbooks）</a></li>
+            <li>
+                <a href="#%e6%96%bd%e5%b1%95%e6%b3%95%e8%a1%93casting-spells" aria-label="施展法術（Casting Spells）">施展法術（Casting Spells）</a></li>
+            <li>
+                <a href="#%e5%8d%b7%e8%bb%b8scrolls" aria-label="卷軸（Scrolls）">卷軸（Scrolls）</a></li>
+            <li>
+                <a href="#%e9%81%ba%e7%89%a9relics" aria-label="遺物（Relics）">遺物（Relics）</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><p>本文翻譯自 Cairn 第二版玩家指南（cairnrpg.com）中的核心規則篇章，原文依 CC-BY-SA 4.0 授權發布，本翻譯同樣採用相同授權。</p>
+<h2 id="屬性值attributes">屬性值（Attributes）<a hidden class="anchor" aria-hidden="true" href="#屬性值attributes">#</a></h2>
+<p>三項<strong>屬性值</strong>分別用於不同情境（詳見下方「豁免」）：</p>
+<ul>
+<li><strong>力量（STR）</strong>：用於需要體力的豁免，例如舉起閘門、扳彎鐵條、抵抗毒素等。</li>
+<li><strong>敏捷（DEX）</strong>：用於需要平衡感、速度、反應的豁免，例如閃避、攀爬、潛行、保持平衡等。</li>
+<li><strong>意志（WIL）</strong>：用於說服、欺騙、審問、威嚇、魅惑、挑釁、操控法術等豁免。</li>
+</ul>
+<h2 id="豁免saves">豁免（Saves）<a hidden class="anchor" aria-hidden="true" href="#豁免saves">#</a></h2>
+<ul>
+<li>豁免是用來避免風險選擇帶來負面結果的擲骰。角色擲 d20，並與對應屬性值比較。若擲出的點數<strong>等於或低於</strong>該屬性值，即為成功；反之則失敗。擲出 1 永遠成功，擲出 20 永遠失敗。</li>
+<li>若雙方角色都試圖壓制對方，應由<strong>風險較高</strong>的一方進行豁免。</li>
+<li>若兩名角色需共同完成某個行動，應由<strong>風險較高</strong>的一方進行豁免（通常是相關屬性值較低的角色）。</li>
+</ul>
+<h2 id="治療與恢復healing--recovery">治療與恢復（Healing &amp; Recovery）<a hidden class="anchor" aria-hidden="true" href="#治療與恢復healing--recovery">#</a></h2>
+<ul>
+<li>休息片刻並喝水可恢復失去的 HP，但可能使隊伍暴露於危險之中。繃帶可以穩定已受到重擊傷害的角色。</li>
+<li>屬性值損失（見「重擊傷害」）通常可透過一週的休息恢復，若有治療者或相關專業人士協助則更佳。</li>
+<li>部分治療服務是免費的，但魔法或更快速的恢復手段可能需要付出代價。</li>
+</ul>
+<h2 id="匱乏與疲勞deprivation--fatigue">匱乏與疲勞（Deprivation &amp; Fatigue）<a hidden class="anchor" aria-hidden="true" href="#匱乏與疲勞deprivation--fatigue">#</a></h2>
+<ul>
+<li>缺乏關鍵需求（如食物或休息）的 PC 處於<strong>匱乏</strong>狀態。任何角色<strong>匱乏</strong>超過一天，便需在物品欄中加入<strong>疲勞</strong>，每天一格。<strong>匱乏</strong>中的 PC 無法透過休息恢復 HP、屬性值，或釋放被疲勞佔用的物品格。</li>
+<li>PC 也可能因施展法術或劇情事件而被迫加入<strong>疲勞</strong>。每個疲勞佔用一個物品格，直到 PC 能夠恢復為止（例如在安全地點獲得一整夜的充分休息）。</li>
+<li>若角色被迫在物品欄中加入疲勞，卻已無空格可用，則必須丟棄一件物品。</li>
+</ul>
+<h2 id="護甲armor">護甲（Armor）<a hidden class="anchor" aria-hidden="true" href="#護甲armor">#</a></h2>
+<ul>
+<li>計算對 HP 造成的傷害前，先從傷害擲骰結果中減去目標的<strong>護甲</strong>值。</li>
+<li>盾牌及類似護甲提供額外防禦加成（例如 +1 護甲），但僅在持有或穿戴期間有效。部分護甲依劇情可能提供額外效果。</li>
+<li>PC、NPC 或怪物的護甲值皆不可超過 3 點。</li>
+</ul>
+<h2 id="反應reactions">反應（Reactions）<a hidden class="anchor" aria-hidden="true" href="#反應reactions">#</a></h2>
+<p>當 PC 遭遇反應不明的 NPC 時，守護者可擲 2d6 並對照下表：</p>
+<table>
+	<thead>
+			<tr>
+					<th>2d6結果</th>
+					<th>反應</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>2</td>
+					<td>敵對</td>
+			</tr>
+			<tr>
+					<td>3-5</td>
+					<td>警戒</td>
+			</tr>
+			<tr>
+					<td>6-8</td>
+					<td>好奇</td>
+			</tr>
+			<tr>
+					<td>9-11</td>
+					<td>友善</td>
+			</tr>
+			<tr>
+					<td>12</td>
+					<td>樂於協助</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="士氣morale">士氣（Morale）<a hidden class="anchor" aria-hidden="true" href="#士氣morale">#</a></h2>
+<ul>
+<li>敵人在遭受第一次傷亡、以及損失半數人員時，須通過意志豁免，否則將逃離戰場。</li>
+<li>部分團體可能以其首領的意志值代替自身進行豁免。單獨行動的敵人在 HP 降至 0 時須進行豁免。</li>
+<li>士氣規則不影響 PC。</li>
+</ul>
+<h2 id="雇員hirelings">雇員（Hirelings）<a hidden class="anchor" aria-hidden="true" href="#雇員hirelings">#</a></h2>
+<ul>
+<li>冒險隊伍可招募雇員，仰賴他們獨特的技能、知識與訓練協助探索行動。</li>
+<li>建立雇員時，從市集頁面的雇員表中選擇適當職務。每項屬性值各擲 3d6，HP 則擲 1d6。給予符合其身分的<strong>裝備</strong>，並在角色特質表上擲骰以豐富其形象。</li>
+<li>或者，也可以從角色創建指南中選擇適當的<strong>背景</strong>與<strong>名字</strong>。擲骰（或直接選擇）該背景對應的各項表格，接著擲骰決定口糧、金幣、屬性值、HP 與年齡。</li>
+</ul>
+<h2 id="命運骰die-of-fate">命運骰（Die of Fate）<a hidden class="anchor" aria-hidden="true" href="#命運骰die-of-fate">#</a></h2>
+<ul>
+<li>當某個事件的結果不確定，或想模擬隨機與運氣因素時，可選擇性地擲 1d6。</li>
+<li>擲出 4 點以上通常對 PC 有利，擲出 3 點以下則通常代表 PC 運氣不佳。</li>
+</ul>
+<h2 id="戰鬥combat">戰鬥（Combat）<a hidden class="anchor" aria-hidden="true" href="#戰鬥combat">#</a></h2>
+<h3 id="回合rounds">回合（Rounds）<a hidden class="anchor" aria-hidden="true" href="#回合rounds">#</a></h3>
+<ul>
+<li>一個<strong>回合</strong>約代表遊戲中十秒鐘的時間，雙方輪流行動。每個回合開始時，先由能夠行動的 PC 行動，接著才輪到對手。<em>雙方行動的結果視為同時發生</em>。</li>
+<li>在<strong>戰鬥的第一回合</strong>中，每位 PC 必須通過敏捷豁免才能行動。特殊情境、能力、物品或技能可能可以免除此要求。豁免失敗的 PC 將<strong>失去本回合的行動</strong>。</li>
+<li>接著輪到對手行動，第一回合結束。下一回合再次由 PC 先行動，接著輪到對手，如此循環直到某一方被擊敗或逃離戰場為止。</li>
+</ul>
+<h3 id="行動actions">行動（Actions）<a hidden class="anchor" aria-hidden="true" href="#行動actions">#</a></h3>
+<p>角色在自己的回合中，可移動最多 40 呎並執行最多一個行動。行動可以是施展法術、攻擊、再次移動，或其他合理的行動。每個回合，PC 需在擲骰前宣告自己要做的行動。若角色嘗試進行有風險的行動，守護者將要求相關玩家或 NPC 進行豁免。</p>
+<h3 id="攻擊與傷害attacking--damage">攻擊與傷害（Attacking &amp; Damage）<a hidden class="anchor" aria-hidden="true" href="#攻擊與傷害attacking--damage">#</a></h3>
+<ul>
+<li>攻擊者擲其武器骰，並扣除目標的護甲值，剩餘數值即對敵方 HP 造成的傷害。戰鬥中的攻擊視為自動命中。</li>
+<li>若多名攻擊者針對同一目標，則分別擲各自的傷害骰，僅取其中<strong>最高</strong>的單一結果。所有行動須在結算前先行宣告。</li>
+<li>若某次攻擊會使 PC 的 HP 剛好降至 0，需查閱「傷痕表」，以了解其受到的獨特影響。</li>
+</ul>
+<h3 id="攻擊修正attack-modifiers">攻擊修正（Attack Modifiers）<a hidden class="anchor" aria-hidden="true" href="#攻擊修正attack-modifiers">#</a></h3>
+<ul>
+<li>若處於劣勢狀態下戰鬥（例如受到掩護或雙手被綁），該攻擊視為<em>削弱</em>，攻擊者無論武器傷害骰為何，皆須改擲 1d4 傷害。徒手攻擊固定造成 d4 傷害。</li>
+<li>若處於優勢狀態下戰鬥（例如對無反抗能力的敵人，或透過大膽的戰術動作），該攻擊視為<em>強化</em>，攻擊者可改擲 1d12 傷害，而非原本的傷害骰。</li>
+<li>具有<em>爆裂</em>特性的攻擊，會影響指定範圍內的所有目標，對每個受影響的角色分別擲骰。此特性可用於爆炸、龍息，乃至隕石撞擊等各種情境。若不確定能影響多少目標，可<em>擲相關傷害骰決定結果</em>。</li>
+<li>若同時使用兩把武器攻擊，則分別擲兩顆傷害骰，僅取其中最高的單一結果（以加號表示，例如 d8+d8）。</li>
+</ul>
+<h3 id="重擊傷害critical-damage">重擊傷害（Critical Damage）<a hidden class="anchor" aria-hidden="true" href="#重擊傷害critical-damage">#</a></h3>
+<ul>
+<li>使目標 HP 降至零以下的傷害，會以剩餘的傷害量<strong>扣除其力量值</strong>。目標接著須立即以其<em>新的力量值</em>進行力量豁免，以避免遭受<strong>重擊傷害</strong>。若成功，目標仍能繼續戰鬥（儘管力量值已降低），且此後每次受到傷害都須再次進行重擊傷害豁免。</li>
+<li>任何遭受重擊傷害的 PC，除了虛弱地爬行、掙扎求生外，無法採取其他行動。若獲得協助（例如包紮傷口），便能穩定下來。若未接受治療，將於一小時內死亡。NPC 與怪物若重擊傷害豁免失敗，則視為死亡，實際判定由<strong>守護者</strong>自行裁量。此外，部分敵人可能擁有在目標重擊傷害豁免失敗時觸發的特殊能力或效果。</li>
+</ul>
+<h3 id="屬性值損失attribute-loss">屬性值損失（Attribute Loss）<a hidden class="anchor" aria-hidden="true" href="#屬性值損失attribute-loss">#</a></h3>
+<ul>
+<li>若 PC 在戰鬥之外受到傷害，則應改為對屬性值（通常是力量）造成傷害。</li>
+<li>若 PC 的力量值降至 0，則死亡。若敏捷值降至 0，則陷入癱瘓。若意志值降至 0，則陷入譫妄。敏捷或意志值完全歸零時，角色將無法行動，直到透過長時間休息或非常手段恢復為止。</li>
+</ul>
+<h3 id="角色死亡character-death">角色死亡（Character Death）<a hidden class="anchor" aria-hidden="true" href="#角色死亡character-death">#</a></h3>
+<ul>
+<li>角色死亡時，玩家應建立新角色，或改為操控一名雇員。該角色應立即加入隊伍，以減少停機等待的時間。</li>
+</ul>
+<h3 id="分隊detachments">分隊（Detachments）<a hidden class="anchor" aria-hidden="true" href="#分隊detachments">#</a></h3>
+<ul>
+<li>多名戰鬥風格相近的敵人共同作戰時，可視為單一<strong>分隊</strong>處理。當<em>分隊</em>遭受<strong>重擊傷害</strong>時，即潰散或大幅削弱。當其力量值降至 0，則視為被摧毀。</li>
+<li>個體對分隊發動的攻擊視為<em>削弱</em>（<em>爆裂</em>傷害除外）。分隊對個體發動的攻擊視為<em>強化</em>，並具有<em>爆裂</em>傷害效果。</li>
+</ul>
+<h3 id="撤退retreat">撤退（Retreat）<a hidden class="anchor" aria-hidden="true" href="#撤退retreat">#</a></h3>
+<ul>
+<li>從危急情況中逃跑，永遠需要成功的敏捷豁免，且必須有安全的逃跑目的地。</li>
+</ul>
+<h3 id="遠程攻擊ranged-attacks">遠程攻擊（Ranged Attacks）<a hidden class="anchor" aria-hidden="true" href="#遠程攻擊ranged-attacks">#</a></h3>
+<ul>
+<li>遠程武器可以攻擊任何在視線範圍內、足以看清對方眼白的敵人。對距離特別遙遠的目標發動攻擊視為<em>削弱</em>。</li>
+<li>除非另有說明，彈藥數量不需特別追蹤。</li>
+</ul>
+<h2 id="傷痕scars">傷痕（Scars）<a hidden class="anchor" aria-hidden="true" href="#傷痕scars">#</a></h2>
+<p>若對 PC 造成的傷害會使其 HP 恰好降至 0，請依照<em>該次攻擊所損失的 HP 數量</em>，查閱下表的對應結果。例如，若某位 PC 的 HP 從 3 點降至 0 點，則對照表中第 3 項（重擊倒地）。</p>
+<h3 id="傷痕表">傷痕表<a hidden class="anchor" aria-hidden="true" href="#傷痕表">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>損失HP</th>
+					<th>結果</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td><strong>永久傷痕</strong>：擲 1d6。1：頸部，2：雙手，3：眼睛，4：胸口，5：雙腿，6：耳朵。接著擲 1d6，若總和高於你目前的最大 HP，則以新結果取代。</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td><strong>震盪重擊</strong>：你感到暈眩失神。描述你如何重新集中注意力。擲 1d6，若總和高於你目前的最大 HP，則以新結果取代。</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td><strong>重擊倒地</strong>：你被擊飛，重重摔倒在地，喘不過氣。你將處於匱乏狀態，直到休息數小時為止。接著擲 1d6，將該數值加到你的最大 HP 上。</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td><strong>肢體骨折</strong>：擲 1d6。1-2：腿部，3-4：手臂，5：肋骨，6：頭骨。傷勢痊癒後，擲 2d6，若總和高於你目前的最大 HP，則以新結果取代。</td>
+			</tr>
+			<tr>
+					<td>5</td>
+					<td><strong>染上疾病</strong>：你染上了噁心難耐的感染症狀。痊癒後，擲 2d6，若總和高於你目前的最大 HP，則以新結果取代。</td>
+			</tr>
+			<tr>
+					<td>6</td>
+					<td><strong>頭部重創</strong>：擲 1d6。1-2：力量，3-4：敏捷，5-6：意志。擲 3d6，若總和高於你目前該項屬性值，則以新結果取代。</td>
+			</tr>
+			<tr>
+					<td>7</td>
+					<td><strong>腿筋重創</strong>：在獲得妥善救治與休息前，你幾乎無法移動。復原後，擲 3d6，若總和高於你目前的最大敏捷值，則以新結果取代。</td>
+			</tr>
+			<tr>
+					<td>8</td>
+					<td><strong>失聰</strong>：在獲得非比尋常的救治前，你將完全聽不見任何聲音。無論如何，進行一次意志豁免，若成功，你的最大意志值增加 1d4。</td>
+			</tr>
+			<tr>
+					<td>9</td>
+					<td><strong>心智重整</strong>：你心靈深處某個被隱藏的部分被震動鬆脫。擲 3d6，若總和高於你目前的最大意志值，則以新結果取代。</td>
+			</tr>
+			<tr>
+					<td>10</td>
+					<td><strong>肢體殘缺</strong>：某個部位被撕裂、致殘或已失去功能（具體部位由守護者決定）。接著進行一次意志豁免，若成功，你的最大意志值增加 1d6。</td>
+			</tr>
+			<tr>
+					<td>11</td>
+					<td><strong>致命重傷</strong>：你陷入匱乏且無法行動。若未獲得治療，將於一小時內死亡。康復後，擲 2d6，以該結果作為你的新最大 HP。</td>
+			</tr>
+			<tr>
+					<td>12</td>
+					<td><strong>命懸一線</strong>：死亡近在咫尺，但你不知怎地活了下來。若你下一次的重擊傷害豁免失敗，將會慘死。若成功，擲 3d6，若總和高於你目前的最大 HP，則以新結果取代。</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="魔法magic">魔法（Magic）<a hidden class="anchor" aria-hidden="true" href="#魔法magic">#</a></h2>
+<h3 id="法術書spellbooks">法術書（Spellbooks）<a hidden class="anchor" aria-hidden="true" href="#法術書spellbooks">#</a></h3>
+<ul>
+<li><strong>法術書</strong>內含單一法術，佔用一個物品格。無法輕易謄寫或製作，只能從墓穴、地城、莊園等地點取得。</li>
+<li>法術書有時會展現出異常的特性或限制，例如打開時散發惡臭或異界氣味、擁有先天的智能，或只有在月光下才能閱讀等。</li>
+<li>法術書會吸引那些覬覦其中奧秘力量之人的注意，公開展示被視為十分危險。</li>
+</ul>
+<h3 id="施展法術casting-spells">施展法術（Casting Spells）<a hidden class="anchor" aria-hidden="true" href="#施展法術casting-spells">#</a></h3>
+<ul>
+<li>任何人只要雙手持握法術書並將其內容大聲唸出，即可施展法術。施法後須在物品欄中加入一個<strong>疲勞</strong>。</li>
+<li>若時間與環境條件允許，PC 可以在不增加額外代價的情況下，<em>強化</em>法術的效果（例如影響多個目標、提升威力等）。</li>
+<li>若 PC 處於<em>匱乏</em>狀態或身處危險中（例如戰鬥期間），守護者可要求該 PC 進行一次意志豁免，以避免施法帶來的不良後果。豁免失敗的後果應與預期效果相稱，可能包括額外的<strong>疲勞</strong>、法術書損毀、受傷，甚至死亡。</li>
+</ul>
+<h3 id="卷軸scrolls">卷軸（Scrolls）<a hidden class="anchor" aria-hidden="true" href="#卷軸scrolls">#</a></h3>
+<p><strong>卷軸</strong>與法術書類似，但有以下差異：</p>
+<ul>
+<li>卷軸屬於<em>瑣碎</em>物品。</li>
+<li>卷軸不會造成<strong>疲勞</strong>。</li>
+<li>卷軸使用一次後即會消失。</li>
+</ul>
+<h3 id="遺物relics">遺物（Relics）<a hidden class="anchor" aria-hidden="true" href="#遺物relics">#</a></h3>
+<p><strong>遺物</strong>是被賦予魔法法術或力量的物品。遺物不會造成疲勞。遺物通常有使用次數限制，並帶有<strong>充能</strong>條件。</p>
+<hr>
+<p>原文出處：<a href="https://cairnrpg.com/second-edition/players-guide/core-rules/">Cairn RPG - Core Rules</a>
+原文授權：<a href="https://creativecommons.org/licenses/by-sa/4.0">CC-BY-SA 4.0</a>
+本翻譯依同一授權條款（CC-BY-SA 4.0）提供。</p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/cairn-2e/">Cairn 2e</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87/">TRPG規則</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/">TRPG規則翻譯</a></li>
+    </ul>
+  </footer><div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "qin-xi-xuan" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">勤嬉軒</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

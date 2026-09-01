@@ -6,21 +6,199 @@
     <description>Recent content in Cairn 2e on 勤嬉軒</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Aug 2026 13:48:03 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 13:48:03 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/cairn-2e/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cairn 2e翻譯：核心規則（Core Rules）</title>
+      <link>http://localhost:1313/posts/cairn2e-core-rules/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/cairn2e-core-rules/</guid>
+      <description>&lt;p&gt;本文翻譯自 Cairn 第二版玩家指南（cairnrpg.com）中的核心規則篇章，原文依 CC-BY-SA 4.0 授權發布，本翻譯同樣採用相同授權。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e：角色創建</title>
+      <link>http://localhost:1313/posts/cairn2e-character-creation/</link>
+      <pubDate>Sat, 29 Aug 2026 13:48:03 +0800</pubDate>
+      <guid>http://localhost:1313/posts/cairn2e-character-creation/</guid>
+      <description>本文講解 Cairn 2e 的角色創建規則</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：Aurifex（煉金師）</title>
+      <link>http://localhost:1313/posts/aurifex/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/aurifex/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你是奧秘的工匠，微妙力量的鍛造師。在你工坊的熔爐之中，支配這個世界的法則將依你的需求而扭曲變形。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：Barber-Surgeon（理髮外科醫）</title>
+      <link>http://localhost:1313/posts/barber-surgeon/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/barber-surgeon/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你行走在醫者與摧殘者之間的灰色地帶，深知血肉的脆弱，也洞悉其中的秘密。只要有了正確的工具，生死不過是兩個字而已。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：Beast Handler（訓獸師）</title>
+      <link>http://localhost:1313/posts/beast-handler/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/beast-handler/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你能無所畏懼地獨自穿行於野獸之中，掌握著其他人只能夢寐以求的動物連結……前提是你別成為牠們的點心。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：Bonekeeper（骸骨守護者）</title>
+      <link>http://localhost:1313/posts/bonekeeper/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/bonekeeper/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你是亡者的牧者，傾聽逝者在沉入冰冷泥土前最後的低語。你深知，若要真正慶祝生命之禮，就必須同樣尊重它的終點。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：Cutpurse（扒手）</title>
+      <link>http://localhost:1313/posts/cutpurse/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/cutpurse/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你活在有權者與無權者之間的灰色地帶。你在別人只見混亂之處找到機會。憑著靈巧的手指，你讓最富有的商人和最低賤的守衛都減輕了一些負擔。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：Fieldwarden（田野守衛）</title>
+      <link>http://localhost:1313/posts/fieldwarden/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/fieldwarden/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;守護豐收、抵禦害蟲、盜賊與野獸，這是一份備受尊崇的職位——只要你能活下去：許多守衛都未能善終。在羈絆表上額外擲骰一次。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：foundling（棄兒）</title>
+      <link>http://localhost:1313/posts/foundling/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/foundling/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;一塊奇怪的胎記、一股陌生的氣味：不知怎地，&lt;em&gt;異界&lt;/em&gt;的觸感依然殘留在你身上。無論身處何處，你總是難以融入。在&lt;strong&gt;預兆&lt;/strong&gt;表上擲骰（即使你不是最年輕的玩家），但暫時保密結果。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：fungal forager（菌菇採集者）</title>
+      <link>http://localhost:1313/posts/fungal-forager/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/fungal-forager/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你追隨著大地深處的低語，追隨著在地表之下生長、脈動不已的菌絲森林節奏。黑暗對你而言毫無恐怖可言。此外，你真的非常喜歡蘑菇。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：greenwise（草藥智者）</title>
+      <link>http://localhost:1313/posts/greenwise/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/greenwise/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你深入&lt;strong&gt;森林&lt;/strong&gt;，從粗糙的枝幹與低語的葉片之間，一點一滴挖掘出它的秘密。對這片蒼翠王國而言，你不僅是個學者，更是它的知己。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：half witch（半女巫）</title>
+      <link>http://localhost:1313/posts/half-witch/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/half-witch/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你生於凡人世界與不可見之境的交會處，對某些人而言是個謎，對更多人而言則是恐懼的對象。你的故事，訴說著兩個世界碰撞時會發生什麼。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：hexenbane（獵巫人）</title>
+      <link>http://localhost:1313/posts/hexenbane/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hexenbane/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你不過是正義那隻絕不出錯之手上的一根手指。你踏入他人不敢涉足之地，堅定不移，永不屈服。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：jongleur（雜耍藝人）</title>
+      <link>http://localhost:1313/posts/jongleur/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/jongleur/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;還有什麼比歌聲、話語與奇觀更能激勵靈魂？當你體內早已擁有真正的魔法時，何必花費多年苦練去掌握那些奧秘之術？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：kettlewright（鍋爐師）</title>
+      <link>http://localhost:1313/posts/kettlewright/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/kettlewright/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;人們從熔融金屬的氣味與錫器的叮噹聲中認出你。你不僅僅是個商人，更是火與金屬的工匠。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：marchguard（邊境衛兵）</title>
+      <link>http://localhost:1313/posts/marchguard/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/marchguard/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;以血誓束縛，巡守邊境，守護王國。一旦立下誓言，便不可違背。衛兵總能找到彼此。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：mountebank（江湖騙子）</title>
+      <link>http://localhost:1313/posts/mountebank/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/mountebank/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;機智是你最鋒利的武器，偽裝是你最堅固的盾牌。但當你被揭穿時，下場通常相當不妙……&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：outrider（遊騎兵）</title>
+      <link>http://localhost:1313/posts/outrider/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/outrider/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你的收入來自護送商隊、追蹤逃犯，或是為某個理念效力。你曾是救世主、劊子手、英雄，甚至反派。然而你的路從不孤單：你永遠有你的馬相伴。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：prowler（潛行者）</title>
+      <link>http://localhost:1313/posts/prowler/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/prowler/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你是夜色中的幽靈，一道悄然滑過獵物身邊、不被察覺的稍縱即逝的影子。每一次獵殺都是一場狡黠與野性意志的考驗，是一場生與死的較量。你知道終有一天你會落敗。你也期待著那一天的到來。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：rill runner（溪流行者）</title>
+      <link>http://localhost:1313/posts/rill-runner/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/rill-runner/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你歌詠河流與湖泊的故事，你的才能能同時撫慰友人與大自然的元素。你所見過的比多數人都多，但不知為何，那似乎總是不夠。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Cairn 2e翻譯：scrivener（抄寫員）</title>
+      <link>http://localhost:1313/posts/scrivener/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/scrivener/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;你抄錄古老的文本，為手稿添上裝飾插畫，記錄下聰慧者、偉大者與掌權者的聲音。你將證明，筆確實比劍更強大。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>【TRPG】Cairn 2e翻譯：fletchwind（箭風者）</title>
       <link>http://localhost:1313/posts/fletchwind/</link>
       <pubDate>Sat, 15 Aug 2026 13:48:03 +0800</pubDate>
       <guid>http://localhost:1313/posts/fletchwind/</guid>
-      <description>精準的獵人</description>
-    </item>
-    <item>
-      <title>【TRPG】Cairn 第二版：角色創建</title>
-      <link>http://localhost:1313/posts/cairn2e-character-creation/</link>
-      <pubDate>Sat, 15 Aug 2026 13:48:03 +0800</pubDate>
-      <guid>http://localhost:1313/posts/cairn2e-character-creation/</guid>
-      <description>本文講解 Cairn 2e 的角色創建規則</description>
+      <description>你從遠處出手，但這不代表你是懦夫。你是個樂手，弓弦的樂音不過是一聲警告，靜靜承諾著一場迅速的死亡。</description>
     </item>
   </channel>
 </rss>

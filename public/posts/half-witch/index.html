@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Cairn 2e翻譯：half witch（半女巫） | 勤嬉軒</title>
+<meta name="keywords" content="Cairn 2e, TRPG規則, TRPG規則翻譯">
+<meta name="description" content="
+你生於凡人世界與不可見之境的交會處，對某些人而言是個謎，對更多人而言則是恐懼的對象。你的故事，訴說著兩個世界碰撞時會發生什麼。
+">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/half-witch/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/half-witch/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="勤嬉軒 (Alt + H)">勤嬉軒</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/search/" title="搜尋">
+                    <span>搜尋</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/trpg/" title="TRPG">
+                    <span>TRPG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/aurence/" title="輝金世界">
+                    <span>輝金世界</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/boardgames/" title="桌遊心得">
+                    <span>桌遊心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/read/" title="閱讀心得">
+                    <span>閱讀心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/videogames/" title="電玩分享">
+                    <span>電玩分享</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/drama/" title="影視心得">
+                    <span>影視心得</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Cairn 2e翻譯：half witch（半女巫）
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-08-29 00:00:00 +0800 CST'>August 29, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><blockquote>
+<p>你生於凡人世界與不可見之境的交會處，對某些人而言是個謎，對更多人而言則是恐懼的對象。你的故事，訴說著兩個世界碰撞時會發生什麼。</p>
+</blockquote>
+<h2 id="名字">名字<a hidden class="anchor" aria-hidden="true" href="#名字">#</a></h2>
+<p>Solena、Veles、Bryn、Sabine、Razvan、Rowena、Galen、Nyx、Vex、Iwan</p>
+<h2 id="起始裝備">起始裝備<a hidden class="anchor" aria-hidden="true" href="#起始裝備">#</a></h2>
+<ul>
+<li>3d6 金幣</li>
+<li>口糧（3次使用）</li>
+<li>火把（3次使用）</li>
+<li>法術書（灌木叢：一片寬達50呎的濃密樹叢與灌木突然拔地而生。<em>每次使用後都會被藤蔓纏繞，須再次破壞方能重複施展。</em>）</li>
+<li>鐵製匕首（d6）</li>
+<li>藥草袋（恢復1點力量，3次使用）</li>
+<li>迷彩偽裝服</li>
+</ul>
+<h2 id="你從幽冥宮廷帶回了什麼擲1d6">你從幽冥宮廷帶回了什麼？擲1d6：<a hidden class="anchor" aria-hidden="true" href="#你從幽冥宮廷帶回了什麼擲1d6">#</a></h2>
+<p><strong>1.</strong> 一把<strong>黑玫瑰提琴</strong>（<em>笨重</em>）。其樂音會使附近凡人陷入強烈的悲傷與無法動彈的狀態（其他生物則只會單純著迷）。你不知道該如何演奏它。</p>
+<p><strong>2.</strong> <strong>紙腿</strong>。你變得極為輕盈，即使從數層樓高墜落也不會受傷。請盡量避免撕裂它們或讓它們沾濕。</p>
+<p><strong>3.</strong> 一個棲居在你體內的<strong>活體夢魘</strong>，只在你身陷危險時才會顯現。牠擁有與你相同的<strong>屬性值</strong>與<strong>HP</strong>，並以利爪攻擊（d8+d8）。牠會在遭受<strong>重擊傷害</strong>時消失（你將承受1d4點意志傷害），並於下一次滿月時再度現身。</p>
+<p><strong>4.</strong> 一隻<strong>渡鴉使魔</strong>〔8點生命、3點力量、11點敏捷、13點意志，喙擊(d6)〕。牠能以具智能的方式說話，並全心全意效忠於你。</p>
+<p><strong>5.</strong> 一根<strong>荊棘刺</strong>。它能刺穿任何有機材質（相當疼痛），但拔除後不會留下任何刺入的痕跡。</p>
+<p><strong>6.</strong> 一位妖精生物的<strong>真名</strong>。可用來召喚其擁有者，令其提供一次重大協助，但僅限一次。若遇到合適的買家，這也可能賣得一筆可觀的價錢。</p>
+<h2 id="你隨身攜帶著什麼藥劑你又是採集了哪些稀有材料來製作它擲1d6">你隨身攜帶著什麼藥劑？你又是採集了哪些稀有材料來製作它？擲1d6：<a hidden class="anchor" aria-hidden="true" href="#你隨身攜帶著什麼藥劑你又是採集了哪些稀有材料來製作它擲1d6">#</a></h2>
+<p><strong>1. 重生之灰</strong>
+樹皮精靈的殘餘物。灑下後可重新點燃已熄滅的火焰，或使剛死去不久的生物復活。3次使用。</p>
+<p><strong>2. 幻影羽毛</strong>
+火鳥的羽毛。可使任何生物令人信服地偽裝成另一個人（或另一種東西）。1次使用。</p>
+<p><strong>3. 山楂籽</strong>
+一顆來自彼岸、於春分時採集的橡實。種下後會長出一座奢華的庇護所，並於次日月升時崩塌消失。1次使用。</p>
+<p><strong>4. 石樹樹脂</strong>
+以鮮血換取而得的樹脂。塗抹於任何表面後會硬化（+1護甲）。3次使用。</p>
+<p><strong>5. 夜塵粉</strong>
+以儀式焚燒六隻貓頭鷹製成。撒向空中後可使白晝短暫轉為黑夜。2次使用。</p>
+<p><strong>6. 咒印石</strong>
+採集自一條源自<em>彼岸</em>的河流。從鐵盒中取出後，可吸收一個正在生效的魔法效果。若此石被摧毀，該魔法效果將被釋放。1次使用。</p>
+<hr>
+<p>原文出處：<a href="https://cairnrpg.com/second-edition/backgrounds/half-witch/">Cairn RPG - Half Witch</a>
+原文授權：<a href="https://creativecommons.org/licenses/by-sa/4.0">CC-BY-SA 4.0</a>
+本翻譯依同一授權條款（CC-BY-SA 4.0）提供。</p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/cairn-2e/">Cairn 2e</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87/">TRPG規則</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/">TRPG規則翻譯</a></li>
+    </ul>
+  </footer><div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "qin-xi-xuan" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">勤嬉軒</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

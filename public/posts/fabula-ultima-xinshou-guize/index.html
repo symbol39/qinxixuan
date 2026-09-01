@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Fabula Ultima：新手規則指南 | 勤嬉軒</title>
+<meta name="keywords" content="TRPG規則, TRPG規則翻譯, 最終物語, Fabula Ultima">
+<meta name="description" content="這篇文章是整理與介紹遊玩 Fabula Ultima（下稱FU） 需要瞭解的基本規則，希望幫助玩家在最短時間內就能對FU有基礎的認識，且能順利開始創造角色並進行遊戲。如果你想瞭解更多規則細節，或者你是GM（辛苦了GM），請參考：Fabula Ultima：規則筆記
+為了方便解釋規則，在這篇文章中我們會使用玩家胖胖的角色：傑克，作為範例。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/fabula-ultima-xinshou-guize/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/fabula-ultima-xinshou-guize/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="勤嬉軒 (Alt + H)">勤嬉軒</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/search/" title="搜尋">
+                    <span>搜尋</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/trpg/" title="TRPG">
+                    <span>TRPG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/aurence/" title="輝金世界">
+                    <span>輝金世界</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/boardgames/" title="桌遊心得">
+                    <span>桌遊心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/read/" title="閱讀心得">
+                    <span>閱讀心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/videogames/" title="電玩分享">
+                    <span>電玩分享</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/drama/" title="影視心得">
+                    <span>影視心得</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Fabula Ultima：新手規則指南
+    </h1>
+    <div class="post-meta">
+
+<span title='2024-09-06 16:57:00 +0800 CST'>September 6, 2024</span>
+
+</div>
+  </header> <details class="toc"  open>
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#%e9%aa%b0%e5%ad%90%e7%ad%89%e7%b4%9a" aria-label="骰子等級">骰子等級</a></li>
+            <li>
+                <a href="#%e6%aa%a2%e5%ae%9a" aria-label="檢定">檢定</a></li>
+            <li>
+                <a href="#%e5%a4%a7%e6%88%90%e5%8a%9f%e5%a4%a7%e5%a4%b1%e6%95%97%e4%bb%a5%e5%8f%8a%e6%a9%9f%e9%81%8b" aria-label="大成功、大失敗以及機運">大成功、大失敗以及機運</a><ul>
+                    
+            <li>
+                <a href="#%e5%a4%a7%e6%88%90%e5%8a%9f" aria-label="大成功">大成功</a></li>
+            <li>
+                <a href="#%e5%a4%a7%e5%a4%b1%e6%95%97" aria-label="大失敗">大失敗</a></li></ul>
+            </li>
+            <li>
+                <a href="#%e5%bc%95%e7%94%a8%e7%89%b9%e8%b3%aa%e6%88%96%e9%97%9c%e4%bf%82" aria-label="引用特質或關係">引用特質或關係</a><ul>
+                    
+            <li>
+                <a href="#%e5%bc%95%e7%94%a8%e7%89%b9%e8%b3%aa%e9%87%8d%e9%aa%b0" aria-label="引用特質重骰">引用特質重骰</a></li>
+            <li>
+                <a href="#%e5%bc%95%e7%94%a8%e9%97%9c%e4%bf%82%e5%bc%b7%e5%8c%96%e6%aa%a2%e5%ae%9a%e7%b5%90%e6%9e%9c" aria-label="引用關係強化檢定結果">引用關係強化檢定結果</a><ul>
+                    
+            <li>
+                <a href="#%e9%97%9c%e4%bf%82%e7%b0%a1%e4%bb%8b" aria-label="關係簡介">關係簡介</a></li>
+            <li>
+                <a href="#%e5%bc%95%e7%94%a8%e9%97%9c%e4%bf%82%e5%bc%b7%e5%8c%96" aria-label="引用關係強化">引用關係強化</a></li></ul>
+            </li>
+            <li>
+                <a href="#%e6%aa%a2%e5%ae%9a%e9%83%a8%e5%88%86%e7%9a%84%e6%95%b4%e7%90%86%e8%a4%87%e7%bf%92" aria-label="檢定部分的整理複習">檢定部分的整理複習</a></li></ul>
+            </li>
+            <li>
+                <a href="#fabula-point" aria-label="Fabula Point">Fabula Point</a><ul>
+                    
+            <li>
+                <a href="#%e7%8d%b2%e5%be%97fabula-point" aria-label="獲得Fabula point">獲得Fabula point</a></li>
+            <li>
+                <a href="#%e4%bd%bf%e7%94%a8fabula-point" aria-label="使用Fabula point">使用Fabula point</a></li>
+            <li>
+                <a href="#%e8%aa%bf%e6%95%b4%e6%88%96%e6%96%b0%e5%a2%9e%e6%95%85%e4%ba%8b%e5%85%83%e7%b4%a0%e7%9a%84%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85" aria-label="調整或新增故事元素的注意事項">調整或新增故事元素的注意事項</a></li></ul>
+            </li>
+            <li>
+                <a href="#%e6%88%b0%e9%ac%a5%e8%a1%9d%e7%aa%81%e5%a0%b4%e6%99%af" aria-label="戰鬥（衝突場景）">戰鬥（衝突場景）</a><ul>
+                    
+            <li>
+                <a href="#%e6%88%b0%e9%ac%a5%e7%9a%84%e7%b5%90%e6%a7%8b" aria-label="戰鬥的結構">戰鬥的結構</a></li>
+            <li>
+                <a href="#%e8%a1%8c%e5%8b%95%e4%bb%8b%e7%b4%b9" aria-label="行動介紹">行動介紹</a></li>
+            <li>
+                <a href="#%e6%94%bb%e6%93%8a" aria-label="攻擊">攻擊</a></li>
+            <li>
+                <a href="#%e7%89%b9%e6%ae%8a%e6%94%bb%e6%93%8a%e8%a1%8c%e5%8b%95" aria-label="特殊攻擊行動">特殊攻擊行動</a></li>
+            <li>
+                <a href="#%e8%a3%9d%e5%82%99" aria-label="裝備">裝備</a></li>
+            <li>
+                <a href="#%e9%98%b2%e5%ae%88" aria-label="防守">防守</a></li>
+            <li>
+                <a href="#%e5%a6%a8%e7%a4%99" aria-label="妨礙">妨礙</a></li>
+            <li>
+                <a href="#%e9%81%93%e5%85%b7" aria-label="道具">道具</a></li>
+            <li>
+                <a href="#%e5%ae%8c%e6%88%90%e7%9b%ae%e6%a8%99" aria-label="完成目標">完成目標</a></li>
+            <li>
+                <a href="#%e6%96%bd%e6%b3%95" aria-label="施法">施法</a></li>
+            <li>
+                <a href="#%e8%aa%bf%e6%9f%a5" aria-label="調查">調查</a></li>
+            <li>
+                <a href="#%e6%8a%80%e8%83%bd" aria-label="技能">技能</a></li>
+            <li>
+                <a href="#%e5%85%b6%e4%bb%96" aria-label="其他">其他</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><p>這篇文章是整理與介紹遊玩 Fabula Ultima（下稱FU） 需要瞭解的基本規則，希望幫助玩家在最短時間內就能對FU有基礎的認識，且能順利開始創造角色並進行遊戲。如果你想瞭解更多規則細節，或者你是GM（辛苦了GM），請參考：<a href="https://vocus.cc/article/678e361efd89780001f81c07">Fabula Ultima：規則筆記</a></p>
+<p>為了方便解釋規則，在這篇文章中我們會使用玩家胖胖的角色：傑克，作為範例。</p>
+<p>以下是傑克的一些基本資料：</p>
+<p><strong>身份：</strong> 英勇的騎士</p>
+<p><strong>主題：</strong> 雄心</p>
+<p><strong>家鄉：</strong> 蘭克斯城</p>
+<p><strong>職業：</strong></p>
+<p>武器大師（等級3）</p>
+<p>元素使（等級2）</p>
+<p><strong>能力值：</strong></p>
+<p>力量（MIG）：d10</p>
+<p>敏捷（DEX）：d10</p>
+<p>洞察力（INS）：d6</p>
+<p>意志（WLP）：d6</p>
+<h2 id="骰子等級">骰子等級<a hidden class="anchor" aria-hidden="true" href="#骰子等級">#</a></h2>
+<p>就像電玩一樣，FU的角色也會以數值來表示一名角色的特定能力，不過這項數值並非12345這樣的數字，而是4個層級的「骰子等級」，這4個骰子等級由低到高分別為：</p>
+<ol>
+<li>d6</li>
+<li>d8</li>
+<li>d10</li>
+<li>d12</li>
+</ol>
+<p>在遊戲中，「d」就是dice的簡稱，而d後面的數字就表示骰子的面數，所以d6就是指6面骰，然後在遊戲中，也可能出現規則指示「2d」，d前面的數字即代表骰子的個數，所以綜合起來，當你看到寫著「2d6」，就代表要擲「2顆6面骰」。</p>
+<p>角色的能力值便以「6面骰」、「8面骰」、「10面骰」及「12面骰」來表示，通常而言，越高等級的骰子對於角色越有利，為什麼呢？請看下一項介紹。</p>
+<h2 id="檢定">檢定<a hidden class="anchor" aria-hidden="true" href="#檢定">#</a></h2>
+<p>在遊戲進行中，故事的進展可能會遇上難以決定其結果的情況，比如說，胖胖的角色傑克在冒險途中抵達一處河流，為了趕路傑克必須跨越河流，然而周遭並沒有橋，水流看來頗為湍急，胖胖遂決定傑克要縱身一躍跳過河流到達對岸，胖胖主張傑克的敏捷是d10，代表他相當靈活，一定能跳過去，但GM認為該河有相當寬度，傑克不一定能安然躍江而過。</p>
+<p>這個時候，就是<strong>進行檢定</strong>的時候了。</p>
+<p>檢定就是利用投擲骰子產生的亂數，來決定特定狀況的結果。</p>
+<p>GM會告知玩家目前狀況的<strong>難度等級</strong>，並指示玩家用於檢定的<strong>能力值組合</strong>，玩家依組合擲對應骰子等級的骰子，最後將骰子的點數合計，與難度等級比較，如此得出該狀況的結果。</p>
+<p>接續開頭的例子，GM認爲跳過河的難度等級為12（7是簡單，10是普通，13是困難），並且跳躍的動作會需要運用肌肉與協調性，所以GM決定用於檢定的能力值為【MIG + DEX】，傑克的力量與敏捷都是d10，所以胖胖骰了2d10，得到了8和5的點數，兩者相加為13，大於難度等級12，傑克的檢定成功！胖胖描述傑克助跑一段距離，在岸邊大步躍起，飛越過河流，落地時順勢翻滾了幾圈，順利到達對岸。</p>
+<p>檢定基本上的流程這是這樣，只要骰子的合計點數<strong>大於等於</strong>難度等級，那就是檢定成功，反之就是失敗。</p>
+<h2 id="大成功大失敗以及機運">大成功、大失敗以及機運<a hidden class="anchor" aria-hidden="true" href="#大成功大失敗以及機運">#</a></h2>
+<p>骰子的點數大於等於難度等級就是成功，但除此之外，<strong>當骰出特定的骰面或點數時</strong>，會得出不同的結果，這些結果會對故事產生比一般的檢定成功或失敗<strong>更劇烈的</strong>效果，這就是大成功與大失敗。</p>
+<h3 id="大成功">大成功<a hidden class="anchor" aria-hidden="true" href="#大成功">#</a></h3>
+<p>當你擲出的兩顆骰子個別的<strong>骰值皆大於等於6</strong>，<strong>且兩顆骰子的數值相等</strong>時，你達成大成功。</p>
+<p>假設先前的例子中，胖胖擲出的兩顆骰子分別為6、6，雖然兩者合計為12低於難度等級13，但是兩顆骰子點數分別等於6，所以達成大成功的條件，傑克依舊可以跳過河流。</p>
+<p>當角色的檢定大成功時，除了能夠完成原先欲達成的目標外，角色還能得到額外的好處，這稱為<strong>機運。</strong></p>
+<p>玩家可以從下列選項中挑選，或是根據當前情況構想適合的機運。GM對於機運是否適當有最終的決定權，玩家請與GM好好討論。</p>
+<ol>
+<li><strong>獨佔優勢</strong> 你或你的盟友的下一次檢定獲得+4加值</li>
+<li><strong>天降苦難</strong> 一個生物承受恍神、震懾、緩慢或虛弱</li>
+<li><strong>關係強化</strong> 你與某人或某物創建關係，或在你當前的關係上增加1級的情感</li>
+<li><strong>失禮言行</strong> 選擇存在於當前場景的某些生物：這些生物表現某些失禮的行為，由控制這些生物的玩家或GM扮演</li>
+<li><strong>支持讚賞</strong> 你的行動獲得某人（生物）的支持或欣賞</li>
+<li><strong>洞察先機</strong> 你發現某些有用的線索或細節，這可以是由GM告知你，或是你自行描述</li>
+<li><strong>不翼而飛</strong> 一件道具被摧毀、偷竊，或是遺失</li>
+<li><strong>福至心靈</strong> 增加或減少Clock最多兩個進度</li>
+<li><strong>不期而至</strong> 由你選定的某人或某物突然出現在當前場景</li>
+<li><strong>火眼金睛</strong> 你發現一個你看得見的生物的弱點或特性</li>
+<li><strong>知己知彼</strong> 你獲悉某個你選定的生物的目標或動機</li>
+</ol>
+<h3 id="大失敗">大失敗<a hidden class="anchor" aria-hidden="true" href="#大失敗">#</a></h3>
+<p>當你擲出的兩顆骰子的<strong>骰值都是1</strong>時，檢定結果為大失敗。</p>
+<p>當你達成大失敗時，該次檢定<strong>自動失敗</strong>，進行檢定的玩家獲得1點Fabula Point（關於Fabula Point將在文後介紹）。</p>
+<p>當你達成大失敗，與你<strong>處於對立的人事物</strong>會獲得機運。</p>
+<p>假設胖胖骰出了1、1，不幸的，檢定結果變成大失敗，GM請胖胖在傑克的角色卡上記下他獲得了1點Fabula Point，然後描述傑克在助跑時不慎絆了一下，沒有順利起跳，而是直接栽進河裡，水深且湍急，傑克吃了好多水，還被沖到很遠的下游處，完全偏離了原本的旅程路線。到下游水流較緩處，傑克好不容易抓住倒木爬上岸，正當心想撿回一命時，傑克發現他奉命要運送的那顆魔法水晶球竟然不見了！（機運：不翼而飛）漂流到不熟悉的地區，還弄丟了重要的物品，傑克的冒險又將如何繼續呢？</p>
+<h2 id="引用特質或關係">引用特質或關係<a hidden class="anchor" aria-hidden="true" href="#引用特質或關係">#</a></h2>
+<p>檢定失敗，玩家束手無策嗎？不，玩家可以選擇引用特質或關係來重骰骰子或強化檢定結果。</p>
+<h3 id="引用特質重骰">引用特質重骰<a hidden class="anchor" aria-hidden="true" href="#引用特質重骰">#</a></h3>
+<p>所謂的特質，就是角色的<strong>身份</strong>、<strong>主題</strong>與<strong>家鄉。<strong>每次檢定擲骰後，玩家可以</strong>花費1點Fabula point</strong>，引用三種特質的其中一種，然後<strong>選擇重骰1顆或全部的骰子</strong>。</p>
+<p><strong>玩家可以選擇重骰任意次，但每次進行重骰前都要花費1點Fabula point。</strong></p>
+<p>如果該次檢定是<strong>大失敗</strong>，不能引用特質重骰。</p>
+<p><strong>玩家必須解釋及描述所引用的特質</strong>，<strong>如何協助其達成檢定欲完成的目標</strong>。</p>
+<p>假設在先前的例子中，胖胖骰出的是6和5，相加只有11，低於難度等級所以失敗，但胖胖不希望這項失敗影響傑克完成他的任務，所以決定重骰。他支付1點Fabula point，選擇引用傑克的身份：英勇的騎士，胖胖說明因為傑克以前剛加入騎士團時曾接受過大量的體能訓練，這些訓練使其有強健的體魄，在危急時刻將能爆發出來。GM接受胖胖的說明，接著胖胖決定重骰5的那顆骰子，沒想到竟然重骰出6！現在他有雙6，變成了大成功！</p>
+<h3 id="引用關係強化檢定結果">引用關係強化檢定結果<a hidden class="anchor" aria-hidden="true" href="#引用關係強化檢定結果">#</a></h3>
+<h4 id="關係簡介">關係簡介<a hidden class="anchor" aria-hidden="true" href="#關係簡介">#</a></h4>
+<p>關係是角色對於另一名角色或是特定國家、民族、組織，甚至是宗教所抱有的強烈情感，通常可以在「休息場景」中或透過特定技能建立。</p>
+<p>遊戲中的關係一共有三組，每組有兩個相對的情緒，分別為：</p>
+<ul>
+<li>欽佩（Admiration）—感到自卑（inferiority）</li>
+<li>忠誠（Loyalty）—不信任（mistrust）</li>
+<li>鍾愛（Affection）—厭惡（hatred）</li>
+</ul>
+<p>你的角色對某個對象每擁有1種情緒，你的角色對該對象的<strong>關係強度</strong>就增強1級。對同一個對象，每組中的情緒你只能獲得其中1種（是的，所以一項關係的上限就是3級）。</p>
+<p>舉例：</p>
+<p>胖胖的傑克對於家鄉蘭克斯城有厭惡和忠誠2種情緒，所以傑克對蘭克斯城的<strong>關係強度就是2級</strong>。如果胖胖想讓關係再提升，就只能從欽佩和感到自卑中挑選，而不能選擇不信任和鍾愛，因為傑克已經有來自那兩組的情緒了。</p>
+<p>你說同時忠誠卻又厭惡好像有點奇怪？或許是因為蘭克斯城的掌權者曾有恩於傑克，但在該城的某些勢力又讓傑克感到厭惡？其實「關係」這項機制就是設計要讓玩家發揮創意的，鼓勵玩家去探索與發展角色的相關故事，玩家隨著遊戲進展，「有機地」發展出關係，如此就能讓角色在故事上更加豐富，在規則上也能變得更強大。</p>
+<p>為何能更強大？我們趕緊回到檢定的部分。</p>
+<h4 id="引用關係強化">引用關係強化<a hidden class="anchor" aria-hidden="true" href="#引用關係強化">#</a></h4>
+<p>在檢定擲骰後，玩家可以選擇<strong>花費1點Fabula point</strong>，引用角色的1項關係，把該關係的<strong>關係強度加入檢定的結果值</strong>中。</p>
+<p><strong>如同引用特質，玩家也要描述或解釋關係如何協助其完成該檢定的目標。</strong></p>
+<p>每次檢定，<strong>只能進行1次引用關係強化</strong>。</p>
+<p>回到傑克過河的例子，假設胖胖骰出6和5，這次他擔心重骰沒辦法骰出他想要的點數，所以決定引用關係強化，胖胖花費1點Fabula point，選擇傑克對蘭克斯城的關係，該關係的強度為2，所以把結果值提升為13（6+5+2），大於難度等級12，所以檢定成功。胖胖說明，因為傑克奉蘭克斯城城主之命，定要將那顆魔法水晶球送到前線軍隊的手中，否則反對派將得到藉口終止對前線的支援，這將會對傑克以及蘭克斯城整體的利益造成重大影響，所以傑克激起鬥志，一躍而過那條河流。</p>
+<h3 id="檢定部分的整理複習">檢定部分的整理複習<a hidden class="anchor" aria-hidden="true" href="#檢定部分的整理複習">#</a></h3>
+<ol>
+<li>檢定是用來決定不確定事件結果的方法。</li>
+<li>玩家依GM指示擲骰，點數大於等於難度等級就是成功。</li>
+<li>擲出兩個相同且大於等於6的點數時，就是大成功，除了完成目標，角色還會得到機運（額外好處）。</li>
+<li>擲出兩個1，檢定結果是大失敗，角色無法或會付出額外的代價以完成目標，且對立方獲得機運（對立方獲得好處，或我方受損），玩家獲得Fabula Point。</li>
+<li>玩家可以支付Fabula Point引用特質重骰，需要說明特質如何協助完成檢定的目標，可以重骰任意次，但每次都必須支付Fabula Point。</li>
+<li>玩家可以支付Fabula Point引用關係重骰，將關係強度加入結果值，需要說明特質如何協助完成檢定的目標，每次檢定僅能引用關係1次。</li>
+</ol>
+<h2 id="fabula-point">Fabula Point<a hidden class="anchor" aria-hidden="true" href="#fabula-point">#</a></h2>
+<p>Fabula Point是玩家在遊戲中可以使用的一項重要資源，玩家需要消耗Fabula Point以發揮角色的特性或關係（如同前述），或是使用某些技能，甚至能夠藉此介入敘事與故事，因此有必要說明與Fabula point有關的規則。</p>
+<h3 id="獲得fabula-point">獲得Fabula point<a hidden class="anchor" aria-hidden="true" href="#獲得fabula-point">#</a></h3>
+<ol>
+<li>在一次遊戲（session）開始時，如果玩家角色的FP為0，則該玩家角色立刻獲得1點FP。</li>
+<li>當玩家角色在檢定中擲出大失敗，該角色立刻獲得1點FP。</li>
+<li>每當一名反派登場——即使是玩家角色未登場的GM場景中，所有玩家角色立刻獲得1點FP。
+<ol>
+<li>同一反派角色登場還是會給FP（見規則書P103）</li>
+<li>數名反派同時在一場景登場，每名反派都能讓玩家角色獲得1點FP，每名玩家角色在同一場景最多以此法獲得3點FP。</li>
+<li>同一反派在連續的場景中登場，玩家角色只在其最初登場時獲得1點FP。</li>
+</ol>
+</li>
+<li>當玩家角色投降，立刻獲得2點FP</li>
+<li>當玩家援引關係或特性使一次檢定自動失敗時，其立刻獲得1點FP。（可選規則）</li>
+</ol>
+<h3 id="使用fabula-point">使用Fabula point<a hidden class="anchor" aria-hidden="true" href="#使用fabula-point">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>效果</th>
+					<th>點數花費</th>
+					<th>說明</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>調整或新增故事元素</td>
+					<td>1</td>
+					<td>調整一個現存的故事元素或新增一個故事元素</td>
+			</tr>
+			<tr>
+					<td>引用關係</td>
+					<td>1</td>
+					<td>將關係的強度添加至一次檢定的結果</td>
+			</tr>
+			<tr>
+					<td>引用特性</td>
+					<td>1</td>
+					<td>在一次檢定後重骰骰子</td>
+			</tr>
+			<tr>
+					<td>使用技能</td>
+					<td>可變</td>
+					<td>特定技能需消耗FP</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="調整或新增故事元素的注意事項">調整或新增故事元素的注意事項<a hidden class="anchor" aria-hidden="true" href="#調整或新增故事元素的注意事項">#</a></h3>
+<ol>
+<li>如果玩家改變一個已經存在於遊戲的人事物，或對之添加新的細節，玩家應經最初介紹或創造該人事物的玩家或GM的同意。</li>
+<li>如果你的調整直接影響另一名玩家的角色，應先經受影響玩家的同意。</li>
+<li>你所為的調整或新增不能與其他玩家或GM已經做出的陳述矛盾。</li>
+<li>你不能調整或新增遊戲機制或規則，例如你不能獲得或變更一項技能、變更怪物的弱點，或者對敵人造成負面狀態。GM可能會因為你調整或新增故事元素，而認定你獲得某種機制上的優勢（例如檢定的加成），但則屬於GM的裁量範圍，非玩家得以決定。</li>
+<li>你調整或新增故事元素而引入一名新的NPC，該NPC仍由GM控制。</li>
+</ol>
+<h2 id="戰鬥衝突場景">戰鬥（衝突場景）<a hidden class="anchor" aria-hidden="true" href="#戰鬥衝突場景">#</a></h2>
+<p>由於戰鬥需要玩家主動做出行動的決策，如果玩家能夠預先對相關規則有基本認識，相信能讓遊戲進行更順利，所以以下會簡要介紹戰鬥的構造以及回合中玩家可選的行動。</p>
+<h3 id="戰鬥的結構">戰鬥的結構<a hidden class="anchor" aria-hidden="true" href="#戰鬥的結構">#</a></h3>
+<p>戰鬥會以接續的「輪」進行，每輪會以數個回合組成，每名參與戰鬥的角色都會有一個回合可以執行一次行動。</p>
+<p>戰鬥開始前，會進行「先攻檢定」，如果玩家方檢定成功，則每輪的第一個回合就由玩家方的其中一名角色開始，其回合結束後，再由對手方的一名角色進行下一回合。如果一方的角色都已進行過回合，則由另一方尚未進行過回合的角色繼續依次進行回合。如此進行，直到所有參與戰鬥的角色都進行過一次回合，則一輪結束，若還未達成戰鬥結束的條件，則繼續新的一輪。如果先攻檢定玩家方失敗，就每輪由對手方的角色先開始進行回合，以同樣方式進行。</p>
+<p>每一輪的角色回合順序，不一定要與先前輪相同。</p>
+<p>例：</p>
+<p>玩家方有A、B、C、D四名角色，對手方有甲、乙二名角色。</p>
+<p>玩家方先攻檢定成功，則戰鬥第一輪的回合順序可以是：A→甲→B→乙→C→D</p>
+<p>第二輪則可以是：C→乙→A→甲→B→D</p>
+<h3 id="行動介紹">行動介紹<a hidden class="anchor" aria-hidden="true" href="#行動介紹">#</a></h3>
+<p>在自己的回合中，玩家可以進行以下行動：</p>
+<ul>
+<li>攻擊</li>
+<li>裝備</li>
+<li>防守</li>
+<li>妨礙</li>
+<li>道具</li>
+<li>完成目標</li>
+<li>施法</li>
+<li>調查</li>
+<li>技能</li>
+<li>其他</li>
+</ul>
+<h3 id="攻擊">攻擊<a hidden class="anchor" aria-hidden="true" href="#攻擊">#</a></h3>
+<p>選擇目標發起近戰或遠程攻擊。<strong>你必須能看見且知道目標的位置</strong>。</p>
+<p>如果目標是正在<strong>飛行</strong>的生物，那麼你只能<strong>對其使用遠程攻擊</strong>。</p>
+<p>為了決定你的攻擊是否命中，進行一次<strong>命中檢定。<strong>命中檢定與一般檢定的方式基本上相同，差別在於</strong>難度等級是目標的物防值</strong>。大失敗確定不命中，大成功確定命中，且一樣皆產生機運。</p>
+<p>攻擊命中後造成的傷害依你使用的武器所記載的公式計算。HR這個簡稱代表High roll，即你進行命中檢定時骰出的最大點數。</p>
+<h3 id="特殊攻擊行動">特殊攻擊行動<a hidden class="anchor" aria-hidden="true" href="#特殊攻擊行動">#</a></h3>
+<p><strong>多重攻擊</strong></p>
+<p>如果有規則指示你進行多重攻擊——通常會記載成如多重攻擊（2）這樣的形式，你可以選擇等同於括號內的數字數量的目標進行攻擊，所以多重攻擊（2）表示你可以同時選擇2個目標。進行多重攻擊時，你的命中檢定仍然只進行一次擲骰，然後將同一結果值與每一個目標的物防值比較。大失敗表示全部不命中，大成功代表全部命中。</p>
+<p><strong>雙武器戰鬥</strong></p>
+<p>如果你進行攻擊行動時正裝備2件武器，你可以宣告你進行雙武器戰鬥。</p>
+<p>由你決定武器使用的順序，並且決定2件武器是攻擊不同目標，或是攻擊同一個目標，但無論如何進行，雙武器戰鬥將會有以下劣勢：</p>
+<ol>
+<li>失去多重攻擊的屬性，且不會獲得多重攻擊的屬性。</li>
+<li>計算傷害時，HR視為0。</li>
+</ol>
+<p><strong>如果你將進行額外行動，你不能宣告雙武器戰鬥。</strong></p>
+<h3 id="裝備">裝備<a hidden class="anchor" aria-hidden="true" href="#裝備">#</a></h3>
+<p>你可以將任意數量你正裝備的道具放入你的背包，並且將你背包內任意數量的道具拿出並裝備在你對應的裝備欄位。</p>
+<p><strong>你不能將你的護甲放入背包或從背包內拿出護甲並裝備。</strong></p>
+<h3 id="防守">防守<a hidden class="anchor" aria-hidden="true" href="#防守">#</a></h3>
+<p>當你進行防守行動，你獲得以下所有增益：</p>
+<ul>
+<li>你獲得對所有傷害類型的抗性。</li>
+<li>每當你與當前場景的其他角色進行對抗檢定時，你獲得+2的加成。</li>
+</ul>
+<p>除了上述增益，你可以選擇是否要掩護另一名當前場景的角色，如果你這麼做，直到你的下個回合開始前，被掩護的角色不能成為近戰攻擊的目標。</p>
+<p><strong>你不能掩護正在掩護其他角色的角色。</strong></p>
+<p>即使有其他規則或效果使你在一回合內可以進行1次以上的行動或給予你額外的防守行動，<strong>在同一回合內，你仍僅能進行1次防守，且防守的增益不會累計</strong>。</p>
+<h3 id="妨礙">妨礙<a hidden class="anchor" aria-hidden="true" href="#妨礙">#</a></h3>
+<p>你迫使一名對手陷入不利的態勢，你可能是佯攻、分散對方的注意力，或是辱罵挑釁對方。</p>
+<p>向GM描述你妨礙的方法，然後進行1次難度等級為10的檢定，如果檢定成功，你選擇以下1種負面狀態，你的目標承受之：</p>
+<ul>
+<li>恍神：暫時降低角色的洞察力骰子等級一級</li>
+<li>震懾：暫時降低角色的意志骰子等級一級</li>
+<li>緩慢：暫時降低角色的敏捷骰子等級一級</li>
+<li>虛弱：暫時降低角色的力量骰子等級一級</li>
+</ul>
+<h3 id="道具">道具<a hidden class="anchor" aria-hidden="true" href="#道具">#</a></h3>
+<p>FU戰鬥過程的道具使用較為簡化，採用點數制的方式，玩家在遊戲中並不需要特別紀錄角色持有的一般道具的數量，僅需要以「IP」表示即可。在戰鬥中，玩家可以選擇道具行動，並支付對應數量的IP，角色就能立刻使用該道具。</p>
+<p>經常使用的道具：</p>
+<ul>
+<li>藍水（3 IP）：一個生物恢復50點MP</li>
+<li>紅水（3 IP）：一個生物恢復50點HP</li>
+<li>恢復劑（2 IP）：解除一個生物所承受的一項負面狀態</li>
+<li>魔力水晶 （2 IP）：選擇一種傷害類型（大氣、電擊、大地、火焰、冰凍），一個生物承受10點你所選類型的傷害</li>
+<li>魔法帳篷（4 IP）：可以讓玩家隊伍在野外安全過夜的道具</li>
+</ul>
+<h3 id="完成目標">完成目標<a hidden class="anchor" aria-hidden="true" href="#完成目標">#</a></h3>
+<p>有時候在戰鬥中，有可能需要進行某些非屬攻擊或防禦的行動，例如你想打破某些障礙物、操作某種機關或是爭奪某項物品，這時候你可以選擇完成目標。通常而言GM應該會指示你進行檢定。</p>
+<p>完成目標有時候可能會涉及「進度」這項規則，有興趣的玩家可以參考<a href="https://vocus.cc/article/678e361efd89780001f81c07">這裡</a>。請記得，每當你在推進或削減進度的檢定中，<strong>結果值每大於等於難度等級3，就能額外多推進或削減1單位的進度</strong>（大於等於3，合計推進或削減2單位；大於等於6，合計推進或削減3單位）。</p>
+<h3 id="施法">施法<a hidden class="anchor" aria-hidden="true" href="#施法">#</a></h3>
+<p>選擇這個行動，施放一個你已經學習的法術。</p>
+<p>為了施法，你必須滿足下列條件：</p>
+<ol>
+<li>你的身體必須能自由活動，且雙手能夠持握道具。</li>
+<li>你必須能夠發聲誦念咒語。</li>
+<li>你必須擁有足夠的預計消耗的MP。</li>
+<li>除非施法目標是自身或規則有另外說明，否則你必須要能看見目標。</li>
+</ol>
+<p>如果你施放的是<strong>攻擊性法術，你必須進行魔法檢定</strong>，檢定使用的<strong>能力值依你使用的法術類別而定</strong>，<strong>難度等級則是目標的魔防值</strong>。</p>
+<h3 id="調查">調查<a hidden class="anchor" aria-hidden="true" href="#調查">#</a></h3>
+<p>你想要更瞭解你所面對的對手，好找出其弱點嗎？請使用調查行動。</p>
+<p>向GM聲明你想調查以瞭解的問題、主題、情報，然後由GM指示你進行有關的檢定。</p>
+<p>檢定結果參考：</p>
+<table>
+	<thead>
+			<tr>
+					<th>檢定結果</th>
+					<th>資訊</th>
+					<th>描述</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>7以上</td>
+					<td>基礎</td>
+					<td>一個微妙的線索，有用但顯得相當寬泛</td>
+			</tr>
+			<tr>
+					<td>10以上</td>
+					<td>完整</td>
+					<td>一個完整的答案，沒有質疑的空間</td>
+			</tr>
+			<tr>
+					<td>13以上</td>
+					<td>具細節性</td>
+					<td>一個完整的答案，以及與其有關且有用的細節</td>
+			</tr>
+			<tr>
+					<td>16以上</td>
+					<td>百科全書式</td>
+					<td>你對該主題可能知道的一切</td>
+			</tr>
+	</tbody>
+</table>
+<p>你不能執行這個動作而重複問相同的問題。</p>
+<h3 id="技能">技能<a hidden class="anchor" aria-hidden="true" href="#技能">#</a></h3>
+<p>某些技能要求你花費一個動作，選擇技能行動用以花費動作執行技能。</p>
+<h3 id="其他">其他<a hidden class="anchor" aria-hidden="true" href="#其他">#</a></h3>
+<p>上述以外，需要耗費一定時間、有相當複雜度的行動，則歸屬在這類。向GM說明你想進行的行為，由GM決定是否需要以「一個行動」來處理（反過來，如果是簡單的行為，是不需要耗費行動的，請和你的GM好好討論）。如果它是一次行動，很可能需要檢定。</p>
+<p>以上就是基本遊玩Fabula Ultima所需要的規則，其餘部分就在遊戲中依靠GM引導逐步瞭解即可。</p>
+<p>如果你還沒有一個屬於你的角色，請參考這篇文章：<a href="https://vocus.cc/article/678c8528fd897800012cd474">【TRPG】Fabula Ultima：建立角色</a></p>
+<p>如果你想看看Fabula Ultima中有什麼可遊玩的職業，可以看看這篇：<a href="https://vocus.cc/article/678c8527fd897800012cd461">【TRPG】Fabula Ultima：職業列表</a></p>
+<p>祝福大家都玩得愉快！</p>
+<hr>
+<p>本文同步發佈於<a href="https://vocus.cc/article/678c8528fd897800012cd486">方格子「勤嬉軒」</a></p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87/">TRPG規則</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/">TRPG規則翻譯</a></li>
+      <li><a href="http://localhost:1313/tags/%E6%9C%80%E7%B5%82%E7%89%A9%E8%AA%9E/">最終物語</a></li>
+      <li><a href="http://localhost:1313/tags/fabula-ultima/">Fabula Ultima</a></li>
+    </ul>
+  </footer><div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "qin-xi-xuan" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">勤嬉軒</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
