@@ -14,6 +14,10 @@ disqusShortname = "qin-xi-xuan"
     url = "/categories/trpg/"
     weight = 10
   [[menu.main]]
+    name = "隨機產生器"
+    url = "/tools/hook-generator/"
+    weight = 11
+  [[menu.main]]
     name = "輝金世界"
     url = "/categories/Aurence/"
     weight = 20
@@ -40,3 +44,8 @@ disqusShortname = "qin-xi-xuan"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[markup]
+ [markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true
