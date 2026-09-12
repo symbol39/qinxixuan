@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Fabula Ultima 最終物語 ：建立角色 | 勤嬉軒</title>
+<meta name="keywords" content="TRPG規則, TRPG規則翻譯, 最終物語, Fabula Ultima">
+<meta name="description" content="帶領玩家依步驟進行 Fabula Ultima 最終物語 的角色建立，協助玩家建立所屬角色，並開始遊戲。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/fabula-ultima-character-creation/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/fabula-ultima-character-creation/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="勤嬉軒 (Alt + H)">勤嬉軒</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/search/" title="搜尋">
+                    <span>搜尋</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/trpg/" title="TRPG">
+                    <span>TRPG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tools/hook-generator/" title="隨機產生器">
+                    <span>隨機產生器</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/aurence/" title="輝金世界">
+                    <span>輝金世界</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/boardgames/" title="桌遊心得">
+                    <span>桌遊心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/read/" title="閱讀心得">
+                    <span>閱讀心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/videogames/" title="電玩分享">
+                    <span>電玩分享</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/drama/" title="影視心得">
+                    <span>影視心得</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Fabula Ultima 最終物語 ：建立角色
+    </h1>
+    <div class="post-meta">
+
+<span title='2024-09-06 16:57:00 +0800 CST'>September 6, 2024</span>
+
+</div>
+  </header> <details class="toc"  open>
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#%e5%bb%ba%e7%ab%8b%e8%ba%ab%e4%bb%bdidentity" aria-label="建立身份（Identity）">建立身份（Identity）</a></li>
+            <li>
+                <a href="#%e9%81%b8%e6%93%87%e6%88%96%e5%bb%ba%e7%ab%8b%e4%b8%bb%e9%a1%8ctheme" aria-label="選擇或建立主題（Theme）">選擇或建立主題（Theme）</a></li>
+            <li>
+                <a href="#%e9%81%b8%e6%93%87%e6%88%96%e5%bb%ba%e7%ab%8b%e5%ae%b6%e9%84%89%e8%b5%b7%e6%ba%90%e5%9c%b0" aria-label="選擇或建立家鄉（起源地）">選擇或建立家鄉（起源地）</a></li>
+            <li>
+                <a href="#%e9%81%b8%e6%93%87%e8%b5%b7%e5%a7%8b%e8%81%b7%e6%a5%ad" aria-label="選擇起始職業">選擇起始職業</a></li>
+            <li>
+                <a href="#%e8%a8%88%e7%ae%97%e8%a7%92%e8%89%b2%e5%90%84%e9%a0%85%e8%83%bd%e5%8a%9b%e5%80%bc%e7%9a%84%e5%9f%ba%e7%a4%8e%e9%aa%b0%e5%ad%90%e7%ad%89%e7%b4%9a" aria-label="計算角色各項能力值的基礎骰子等級">計算角色各項能力值的基礎骰子等級</a></li>
+            <li>
+                <a href="#%e8%a8%88%e7%ae%97%e8%a7%92%e8%89%b2%e7%9a%84hp%e8%88%87mp" aria-label="計算角色的HP與MP">計算角色的HP與MP</a></li>
+            <li>
+                <a href="#%e8%a8%88%e7%ae%97%e8%a7%92%e8%89%b2%e7%9a%84inventory-points" aria-label="計算角色的Inventory Points">計算角色的Inventory Points</a></li>
+            <li>
+                <a href="#%e8%a8%88%e7%ae%97%e8%a7%92%e8%89%b2%e7%9a%84%e7%89%a9%e7%90%86%e9%98%b2%e7%a6%a6%e9%ad%94%e6%b3%95%e9%98%b2%e7%a6%a6%e8%88%87%e5%85%88%e6%94%bb%e8%aa%bf%e6%95%b4%e5%80%bc" aria-label="計算角色的物理防禦、魔法防禦與先攻調整值">計算角色的物理防禦、魔法防禦與先攻調整值</a></li>
+            <li>
+                <a href="#%e8%b3%bc%e8%b2%b7%e8%b5%b7%e5%a7%8b%e8%a3%9d%e5%82%99" aria-label="購買起始裝備">購買起始裝備</a></li>
+            <li>
+                <a href="#%e6%93%b2%e9%aa%b0%e6%b1%ba%e5%ae%9a%e8%b5%b7%e5%a7%8b%e8%b3%87%e9%87%91" aria-label="擲骰決定起始資金">擲骰決定起始資金</a></li>
+            <li>
+                <a href="#%e7%8d%b2%e5%be%97%e4%bd%a0%e7%9a%84%e8%b5%b7%e5%a7%8bfabula-points" aria-label="獲得你的起始Fabula points">獲得你的起始Fabula points</a></li>
+            <li>
+                <a href="#%e6%9c%80%e5%be%8c%e4%bf%ae%e9%a3%be" aria-label="最後修飾">最後修飾</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><p><strong>Fabula Ultima</strong> 中文界多稱「最終物語」 是一款日系風格的桌上角色扮演遊戲。</p>
+<p>就像你玩過的所有RPG一樣，在遊戲開始前，最重要的就是你要擁有一個你將在遊戲中扮演的角色，以電玩的用語，也就是所謂的「捏角」，本篇文章就是要帶你一步步創造專屬於你的獨特角色。</p>
+<h1 id="建立身份identity">建立身份（Identity）<a hidden class="anchor" aria-hidden="true" href="#建立身份identity">#</a></h1>
+<p>這是第一步，我們要賦予你的角色一項身份，試著用簡單的短句概括你的角色，描繪出他的輪廓。</p>
+<p>例如：</p>
+<ul>
+<li>忠誠的騎士</li>
+<li>老邁健忘的巫師</li>
+<li>獨眼武士</li>
+<li>月球人的戰士公主</li>
+</ul>
+<p>是的，相信藉由上面的例子，你應該也發現，建立身分的一個簡單方式，就是用一句「●●的◼◼」來定位你的角色，●●是形容詞，◼◼則通常是某種職業，只要用類似的句式，你就可以很快地勾勒出你的角色。</p>
+<p>建立身份除了幫助你定下基礎，讓你對於後續創立角色的方向有所依循外，「身份」在遊戲中同時也是一項重要的「資源」，有興趣的玩家可以參考<a href="https://pawntoh.com/posts/fabula-ultima-beginner-guide/">Fabula Ultima 最終物語 ：新手規則指南</a>。</p>
+<h1 id="選擇或建立主題theme">選擇或建立主題（Theme）<a hidden class="anchor" aria-hidden="true" href="#選擇或建立主題theme">#</a></h1>
+<p>主題是關於你的角色最主要的理想、願望，或是驅使他行動或作出選擇的那些最重要的情緒。如果說前一步驟的身份是外在的，那麼主題關注的就是你的角色的內在世界。</p>
+<p>如果這是你首次進行遊戲，相信這樣的解釋還是會讓人有點不明白，如果是這樣，玩家可以參考下表，挑選你覺得適合你的角色的主題，當然，你有靈感的話，就遵循你的靈感吧！</p>
+<ul>
+<li>雄心（Ambition） 你努力想要對自己或他人證明自己的價值。</li>
+<li>憤怒（Anger） 你就像個滴答作響的定時炸彈，總是處在爆炸的邊緣。</li>
+<li>歸屬（Belonging） 你害怕孤單一人、被遺忘或被遺棄。</li>
+<li>探究（Doubt） 你必須找出一個至關重要的問題的答案。</li>
+<li>職責（Duty） 你活著是為了完成一個你所做的承諾，或是遵從一項命令。</li>
+<li>負罪（Guilt） 你希冀能為過去的錯誤贖罪。</li>
+<li>希望（Hope） 你為自己或他人追尋一個更美好的世界。</li>
+<li>正義（Justice） 你總是選擇站在弱勢的那一方。</li>
+<li>慈愛（Mercy） 你希望能幫助所有人——不論他們有什麼樣的過去。</li>
+<li>復仇（Vengeance） 你將讓報應降臨在某人或某事之上。</li>
+</ul>
+<p>觀察上述主體，能發現主題可能涵蓋的面向有：</p>
+<ol>
+<li>角色的主要或強烈行為動機（如復仇、探究）</li>
+<li>角色的情緒（如憤怒）</li>
+<li>角色的價值觀（如正義、慈愛）</li>
+</ol>
+<p>玩家可以從上表選擇，也可以就上表的主題做適合角色的改動，當然也能自己定義全新的主題——如果是自己創作的主題，建議與GM經過討論，並且寫下明確的文字描述。</p>
+<p>和身份相同，「主題」也是角色在遊戲中能夠運用的資源之一，詳細可參考<a href="https://pawntoh.com/posts/fabula-ultima-beginner-guide/">Fabula Ultima 最終物語 ：新手規則指南</a>。</p>
+<h1 id="選擇或建立家鄉起源地">選擇或建立家鄉（起源地）<a hidden class="anchor" aria-hidden="true" href="#選擇或建立家鄉起源地">#</a></h1>
+<p>你的角色來自哪裡呢？某個鄉村？某座城市？甚至是宇宙中的某顆星星？或者你是被製造出來的，你能稱為故鄉的地方是某座工坊或工廠？</p>
+<p>從你們使用或創造的世界設定中選擇一個地點作為你的家鄉，有必要的話，你也能創作一個新的地點，當然這可能得要和你的GM討論過。</p>
+<h1 id="選擇起始職業">選擇起始職業<a hidden class="anchor" aria-hidden="true" href="#選擇起始職業">#</a></h1>
+<p>一般角色在遊戲開始時是等級5，玩家要將這5個等級<strong>分配到至少2個、最多3個職業中</strong>。</p>
+<p>每個職業會包含有以下三項資訊：</p>
+<ul>
+<li>
+<p>角色背景引導</p>
+</li>
+<li>
+<p>職業加成</p>
+</li>
+<li>
+<p>技能</p>
+</li>
+</ul>
+<p>角色背景引導由數個問題組成，玩家可以透過回答這些問題，建立其角色的經歷、背景以及有關的其他資訊，玩家不一定要回答所有問題，如有其他想法亦可自由發揮。</p>
+<p>職業加成是在首次選擇該職業時，角色會取得的效果。</p>
+<p>每個職業都有數個技能，每當玩家將1個等級分配到1個職業時，玩家就能在該職業的技能中選擇1項學習。每個技能原則上只能被選擇學習1次，<strong>但標註有【最大X】的技能，則最多可以被選擇學習X次</strong>，這些可以被多次學習的技能，其效果也會因學習的次數而有差異。</p>
+<p>那麼，就先為你的角色選擇兩種或三種職業吧，然後將5個等級分配到這些職業中，並選擇技能，完成後，你應該會擁有最多五項的技能，然後記下你所選職業的職業加成，在下個步驟我們會用來計算角色的相關能力值。</p>
+<p>以下是你可以選擇的職業：</p>
+<ul>
+<li>奧術師</li>
+<li>命化師</li>
+<li>黑刃</li>
+<li>元素使</li>
+<li>混沌術士</li>
+<li>狂戰士</li>
+<li>守衛</li>
+<li>賢者</li>
+<li>雄辯家</li>
+<li>俠盜</li>
+<li>射手</li>
+<li>靈魂學家</li>
+<li>工匠</li>
+<li>旅人</li>
+<li>武器大師</li>
+</ul>
+<h1 id="計算角色各項能力值的基礎骰子等級">計算角色各項能力值的基礎骰子等級<a hidden class="anchor" aria-hidden="true" href="#計算角色各項能力值的基礎骰子等級">#</a></h1>
+<p>在FU中，角色擁有以下4種能力值：</p>
+<ol>
+<li>敏捷：表示一名角色動作的精準度、協調性、反射能力，以及精巧動作的技藝。</li>
+<li>洞察力：表示一名角色的觀察力、理解能力與推理能力。</li>
+<li>力量：表示一名角色在肉體與精神上的強韌與剛毅程度。</li>
+<li>意志：表示一名角色的決心毅力、魅力，以及影響他人的能力。</li>
+</ol>
+<p>玩家可以從以下三種組合中選擇一種，將該組合中所列的4種骰子等級，分配到其角色的4種能力值。</p>
+<ul>
+<li>d8、d8、d8、d8</li>
+<li>d10、d8、d8、d6</li>
+<li>d10、d10、d6、d6</li>
+</ul>
+<blockquote>
+<p>例：玩家胖胖希望扮演一名強壯的騎士，所以他選擇了「d10、d10、d6、d6」的組合，並將d10分配到力量與敏捷，然後將d6分配到洞察力與意志。</p>
+</blockquote>
+<p>如果你還不是很瞭解骰子等級將對遊戲的進行有什麼影響，可以參考<a href="https://pawntoh.com/posts/fabula-ultima-beginner-guide/">Fabula Ultima 最終物語 ：新手規則指南</a>。</p>
+<h1 id="計算角色的hp與mp">計算角色的HP與MP<a hidden class="anchor" aria-hidden="true" href="#計算角色的hp與mp">#</a></h1>
+<p>就像你在許多電玩中會看見的HP和MP，FU也使用這兩項數值衡量角色的體力、健康狀況與魔力的多寡。</p>
+<p>角色的最大HP = 角色的總等級 + 角色的「基礎」力量骰子等級 × 5</p>
+<p>角色的最大MP = 角色的總等級 + 角色的「基礎」意志骰子等級 × 5</p>
+<blockquote>
+<p>例：胖胖的騎士是等級5，力量為d10，意志為d6，則角色的最大HP即為55（5 + 10 × 5），MP為35（5 + 6 × 5）。</p>
+</blockquote>
+<p>請注意，可能還有來自其他規則的效果會影響最大HP和最大MP的數值， 例如部分職業的職業加成、技能或是裝備，要記得把這些效果也計入。</p>
+<p>順帶一提，在規則中有一種狀態稱為「危急」（Crisis），指的是角色的當前血量低於最大血量的一半（無條件捨去）。</p>
+<h1 id="計算角色的inventory-points">計算角色的Inventory Points<a hidden class="anchor" aria-hidden="true" href="#計算角色的inventory-points">#</a></h1>
+<p>除非有來自其他規則的效果，例如職業加成、技能或裝備，否則<strong>你的角色的最大IP為6</strong>。</p>
+<h1 id="計算角色的物理防禦魔法防禦與先攻調整值">計算角色的物理防禦、魔法防禦與先攻調整值<a hidden class="anchor" aria-hidden="true" href="#計算角色的物理防禦魔法防禦與先攻調整值">#</a></h1>
+<p>角色的防禦決定其受敵方攻擊命中的可能性與承受能力。</p>
+<p>物理防禦 = 角色「當前」敏捷的骰子等級</p>
+<p>魔法防禦 = 角色「當前」洞察力的骰子等級</p>
+<p>先攻值 = 0</p>
+<p>你或許注意到了，防禦的計算與HP、MP有些不同，防禦是依據「<strong>當前</strong>」，而HP、MP則是依據「<strong>基礎</strong>」，在遊戲中，如果有效果「暫時」改變角色的敏捷或洞察力的骰子等級，則<strong>角色的防禦將會相應改變</strong>，因為它們依據「當前」，反之，當效果「暫時」改變力量或意志的骰子等級時，<strong>HP與MP並不會發生改變</strong>，因為HP與MP是依「基礎」骰子等級計算。</p>
+<h1 id="購買起始裝備">購買起始裝備<a hidden class="anchor" aria-hidden="true" href="#購買起始裝備">#</a></h1>
+<p>玩家獲得500元購買起始裝備，可選購的裝備請見：<a href="https://pawntoh.com/posts/fabula-ultima-gear-list/">Fabula Ultima：基礎裝備列表</a></p>
+<p>原則上，玩家只能購買基礎武器、基礎護甲與盾牌，如果你想購買稀有道具或載具，請與你的GM及其他夥伴討論。</p>
+<p>請注意，註記「<strong>軍用</strong>」的裝備，你的角色必須擁有能夠裝備軍用裝備的能力才能使用。</p>
+<ul>
+<li>提供裝備「軍用<strong>近戰</strong>武器」能力的職業：黑刃、狂戰士、武器大師</li>
+<li>提供裝備「軍用<strong>遠程</strong>武器」能力的職業：射手</li>
+<li>提供裝備「軍用護甲」能力的職業：黑刃、狂戰士、守衛、</li>
+<li>提供裝備「軍用盾牌」能力的職業：守衛、射手、武器大師</li>
+</ul>
+<h1 id="擲骰決定起始資金">擲骰決定起始資金<a hidden class="anchor" aria-hidden="true" href="#擲骰決定起始資金">#</a></h1>
+<p>擲2d6，將結果乘以10，再加上前一步驟購買裝備後剩餘的錢，就是玩家角色在遊戲開始時擁有的金錢。</p>
+<h1 id="獲得你的起始fabula-points">獲得你的起始Fabula points<a hidden class="anchor" aria-hidden="true" href="#獲得你的起始fabula-points">#</a></h1>
+<p>玩家的角色獲得3點Fabula points。
+什麼是Fabula points？請參考<a href="https://pawntoh.com/posts/fabula-ultima-beginner-guide/">Fabula Ultima 最終物語 ：新手規則指南</a>。</p>
+<h1 id="最後修飾">最後修飾<a hidden class="anchor" aria-hidden="true" href="#最後修飾">#</a></h1>
+<p>你已經決定好你的角色的名字了嗎？如果還沒決定，快幫他想一個吧，可以的話再多幫你的角色加上一些細節，例如他的外貌特徵，有沒有什麼特別的習慣或怪癖等等。</p>
+<p>都在角色卡上記好了嗎？恭喜你，你已經創造出屬於你的角色！可以開始遊戲，展開你們的冒險囉！</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87/">TRPG規則</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/">TRPG規則翻譯</a></li>
+      <li><a href="http://localhost:1313/tags/%E6%9C%80%E7%B5%82%E7%89%A9%E8%AA%9E/">最終物語</a></li>
+      <li><a href="http://localhost:1313/tags/fabula-ultima/">Fabula Ultima</a></li>
+    </ul>
+  </footer><div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "qin-xi-xuan" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">勤嬉軒</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

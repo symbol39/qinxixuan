@@ -6,21 +6,21 @@
     <description>Recent content in Categories on 勤嬉軒</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2026 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TRPG</title>
+      <link>http://localhost:1313/categories/trpg/</link>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/categories/trpg/</guid>
+      <description>&lt;p&gt;各類TRPG的介紹、翻譯&lt;/p&gt;</description>
+    </item>
     <item>
       <title>輝金世界</title>
       <link>http://localhost:1313/categories/aurence/</link>
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/categories/aurence/</guid>
       <description>&lt;p&gt;輝金世界(Aurence)是一個原創的劍、魔法與投機狂熱的TRPG世界觀，這裡收錄了世界觀設定、原創小說與TRPG冒險模組相關的文章。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>TRPG</title>
-      <link>http://localhost:1313/categories/trpg/</link>
-      <pubDate>Sat, 29 Aug 2026 13:48:03 +0800</pubDate>
-      <guid>http://localhost:1313/categories/trpg/</guid>
-      <description>&lt;p&gt;各類TRPG的介紹、翻譯&lt;/p&gt;</description>
     </item>
     <item>
       <title>影視心得</title>

@@ -9,21 +9,54 @@
     <lastmod>2026-08-29T13:48:03+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-08-30T00:00:00+08:00</lastmod>
+    <lastmod>2026-09-12T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fabula-ultima/</loc>
+    <lastmod>2026-09-12T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/fabula-ultima-gear-list/</loc>
+    <lastmod>2026-09-12T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-08-30T00:00:00+08:00</lastmod>
+    <lastmod>2026-09-12T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-08-30T00:00:00+08:00</lastmod>
+    <lastmod>2026-09-12T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/trpg/</loc>
+    <lastmod>2026-09-12T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87/</loc>
+    <lastmod>2026-09-12T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-09-12T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E6%9C%80%E7%B5%82%E7%89%A9%E8%AA%9E/</loc>
+    <lastmod>2026-09-12T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%A1%A8%E6%A0%BC/</loc>
+    <lastmod>2026-09-12T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%A3%9D%E5%82%99/</loc>
+    <lastmod>2026-09-12T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/fabula-ultima-chimerist/</loc>
+    <lastmod>2026-08-31T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/fabula-ultima-arcanist/</loc>
+    <lastmod>2026-08-31T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/fabula-ultima-darkblade/</loc>
+    <lastmod>2026-08-31T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/</loc>
+    <lastmod>2026-08-31T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E4%BA%92%E5%8B%95%E5%BC%8F%E5%B0%8F%E8%AA%AA/</loc>
     <lastmod>2026-08-30T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/your-story/</loc>
-    <lastmod>2026-08-30T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-08-30T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E5%B0%8F%E8%AA%AA/</loc>
@@ -35,16 +68,10 @@
     <loc>http://localhost:1313/tags/%E8%BC%9D%E9%87%91%E4%B8%96%E7%95%8C/</loc>
     <lastmod>2026-08-30T00:00:00+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/aurence-gamestory-directionsandindex/</loc>
+    <lastmod>2026-08-30T00:00:00+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/cairn-2e/</loc>
-    <lastmod>2026-08-29T13:48:03+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/trpg/</loc>
-    <lastmod>2026-08-29T13:48:03+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87/</loc>
-    <lastmod>2026-08-29T13:48:03+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/</loc>
     <lastmod>2026-08-29T13:48:03+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/aurifex/</loc>
@@ -125,13 +152,10 @@
     <loc>http://localhost:1313/posts/fletchwind/</loc>
     <lastmod>2026-08-15T13:48:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fabula-ultima/</loc>
-    <lastmod>2024-09-06T16:57:00+08:00</lastmod>
+    <loc>http://localhost:1313/posts/fabula-ultima-beginner-guide/</loc>
+    <lastmod>2024-09-12T16:57:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fabula-ultima-xinshou-guize/</loc>
-    <lastmod>2024-09-06T16:57:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E6%9C%80%E7%B5%82%E7%89%A9%E8%AA%9E/</loc>
+    <loc>http://localhost:1313/posts/fabula-ultima-character-creation/</loc>
     <lastmod>2024-09-06T16:57:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tools/</loc>

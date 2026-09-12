@@ -1,10 +1,10 @@
 +++
-date = '2026-08-31T00:00:00+08:00'
+date = '2026-09-12T00:00:00+08:00'
 draft = false
 title = 'Fabula Ultima：基礎裝備列表'
 categories = ["TRPG"]
-tags = ["Fabula Ultima", "TRPG規則", "裝備", "表格"]
-summary = 'Fabula Ultima 的盾牌、護甲與武器裝備數值一覽表。'
+tags = ["Fabula Ultima", "最終物語", "TRPG規則", "裝備", "表格"]
+summary = 'Fabula Ultima 最終物語 的盾牌、護甲與武器裝備數值一覽表。'
 +++
 
 ## 盾牌

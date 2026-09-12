@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Fabula Ultima：奧術師與祕源 | 勤嬉軒</title>
+<meta name="keywords" content="Fabula Ultima, TRPG規則, TRPG規則翻譯">
+<meta name="description" content="角色背景引導
+你的力量來自於什麼？是來自於你的血脈嗎？
+你曾經和祕源交談過嗎？還是他們都對你保持沉默和距離？
+人們認為你是神秘的、強大的，或是超脫凡俗的？
+你的技藝依靠後天勤修，又或者你是個先天特例？">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/fabula-ultima-arcanist/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/fabula-ultima-arcanist/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="勤嬉軒 (Alt + H)">勤嬉軒</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/search/" title="搜尋">
+                    <span>搜尋</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/trpg/" title="TRPG">
+                    <span>TRPG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tools/hook-generator/" title="隨機產生器">
+                    <span>隨機產生器</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/aurence/" title="輝金世界">
+                    <span>輝金世界</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/boardgames/" title="桌遊心得">
+                    <span>桌遊心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/read/" title="閱讀心得">
+                    <span>閱讀心得</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/videogames/" title="電玩分享">
+                    <span>電玩分享</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/drama/" title="影視心得">
+                    <span>影視心得</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Fabula Ultima：奧術師與祕源
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-08-31 00:00:00 +0800 CST'>August 31, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h2 id="角色背景引導">角色背景引導<a hidden class="anchor" aria-hidden="true" href="#角色背景引導">#</a></h2>
+<p>你的力量來自於什麼？是來自於你的血脈嗎？</p>
+<p>你曾經和祕源交談過嗎？還是他們都對你保持沉默和距離？</p>
+<p>人們認為你是神秘的、強大的，或是超脫凡俗的？</p>
+<p>你的技藝依靠後天勤修，又或者你是個先天特例？</p>
+<h2 id="職業加成">職業加成<a hidden class="anchor" aria-hidden="true" href="#職業加成">#</a></h2>
+<p>奧術師的最大MP永久+5</p>
+<h2 id="技能">技能<a hidden class="anchor" aria-hidden="true" href="#技能">#</a></h2>
+<h3 id="奧術領域最大4">奧術領域【最大4】<a hidden class="anchor" aria-hidden="true" href="#奧術領域最大4">#</a></h3>
+<p>每當你在戰鬥中依自己意願解除祕源（有關祕源的規則，請見下），如果在同一回合，祕源未被召喚且你裝備一個魔法武器，你可以立刻執行一個免費的法術行動。你仍須支付這個咒語的MP費用，且該費用不能高於SL×5</p>
+<h3 id="奧術治癒最大2">奧術治癒【最大2】<a hidden class="anchor" aria-hidden="true" href="#奧術治癒最大2">#</a></h3>
+<p>每當你召喚一個祕源，你立即回復【SL×5】的HP。</p>
+<h3 id="連結召喚">連結．召喚<a hidden class="anchor" aria-hidden="true" href="#連結召喚">#</a></h3>
+<p>你可以與一個祕源建立靈魂上的連結，並在之後召喚它。</p>
+<p>你可以使用一個行動並支付40點MP召喚一個已經與你建立連結的祕源。</p>
+<p>如果你在建立你的角色時就選擇了這個技能，請立刻選擇一種你的世界存在的祕源，你與所選的祕源立刻建立連結。如果你不是在建立角色時選擇，則你必須在故事的探索與推進中才能獲得與祕源建立連接的機會。</p>
+<h3 id="應急奧術最大6">應急奧術【最大6】<a hidden class="anchor" aria-hidden="true" href="#應急奧術最大6">#</a></h3>
+<p>只要你處於危急狀態，你召喚祕源所需的MP減少【SL×5】。</p>
+<h3 id="奧術儀式">奧術儀式<a hidden class="anchor" aria-hidden="true" href="#奧術儀式">#</a></h3>
+<p>你可以執行奧術之儀的儀式，該儀式可達成的效果取決於與你已經連結的祕源的範疇。</p>
+<p>採行奧術之儀的儀式，以【WLP+WLP】進行檢定。</p>
+<h2 id="祕源">祕源<a hidden class="anchor" aria-hidden="true" href="#祕源">#</a></h2>
+<h3 id="與一個祕源融併">與一個祕源融併<a hidden class="anchor" aria-hidden="true" href="#與一個祕源融併">#</a></h3>
+<p>每當你召喚一個祕源，你獲得祕源的融併效果，這些效果會持續到該祕源被解除。當你已經和一個祕源融併時，你不能再召喚祕源，你必須先解除當前融併的祕源。</p>
+<h3 id="解除祕源">解除祕源<a hidden class="anchor" aria-hidden="true" href="#解除祕源">#</a></h3>
+<p>祕源會因以下情形而被解除：</p>
+<ul>
+<li>當一個場景結束或你的角色離開該場景。</li>
+<li>你在融併狀態下死亡或失去意識。</li>
+<li>你自願解除，這不算作一個動作，但如果角色正處於戰鬥場景，則你只能在你的回合中、一個動作之前或之後解除。</li>
+</ul>
+<h3 id="解除效果">解除效果<a hidden class="anchor" aria-hidden="true" href="#解除效果">#</a></h3>
+<p>多數祕源在被你的角色自願解除時都會觸發一個強大的效果。</p>
+<p>如果祕源的解除效果是造成傷害，當你的等級大於等於20等，將額外造成10點傷害；等級大於等於40等時，額外造成20點傷害。</p>
+<p>你可以選擇不觸發祕源的解放效果。</p>
+<h3 id="範疇">範疇<a hidden class="anchor" aria-hidden="true" href="#範疇">#</a></h3>
+<p>每個祕源都與某些概念結合，GM應該依據這些概念設想與該祕源建立連接需要的考驗或程序，並且界定奧術法則儀式的效果射程。</p>
+<h2 id="伊爾蘭的祕源">伊爾蘭的祕源<a hidden class="anchor" aria-hidden="true" href="#伊爾蘭的祕源">#</a></h2>
+<h3 id="禦者">禦者<a hidden class="anchor" aria-hidden="true" href="#禦者">#</a></h3>
+<p><strong>範疇</strong>：預測、戰術、情報</p>
+<p><strong>融併效果</strong>
+你免疫恍神
+你的物理防禦+1</p>
+<p><strong>解除效果</strong>
+選擇一個目標，直到你的下個回合開始前，當目標進行行動時，你可以進行一次【INS + INS】的檢定（由GM決定難度，如果目標的行動需要檢定，則與目標進行對抗檢定），如果成功，則取消目標的該次行動。</p>
+<h3 id="攻者">攻者<a hidden class="anchor" aria-hidden="true" href="#攻者">#</a></h3>
+<p><strong>範疇</strong>：技巧、感知、對戰</p>
+<p><strong>融併效果</strong>
+從弓、格鬥、匕首、火器、連枷、重武器、矛、劍或投擲等武器分類中選擇一種，當你使用該種武器進行攻擊時，你的命中檢定+1，且額外造成5點傷害，如果目標承受狀態效果，則再額外造成5點傷害</p>
+<h3 id="塔洛斯">塔洛斯<a hidden class="anchor" aria-hidden="true" href="#塔洛斯">#</a></h3>
+<p><strong>範疇</strong>：空間、穿行</p>
+<p><strong>融併效果</strong>
+你擁有一個口袋空間可以收納物品，這個空間的容量大約是100公升。只要你保持融併狀態，你的IP最大值+2。</p>
+<p><strong>解除效果</strong>
+你和最多5個願意接受此融併效果的生物立刻傳送到你曾經到訪過的1個地點，該地點距離原點不能超過3個旅行日。</p>
+<h3 id="塔格爾">塔格爾<a hidden class="anchor" aria-hidden="true" href="#塔格爾">#</a></h3>
+<p><strong>範疇</strong>：治療、修復、成長</p>
+<p><strong>融併效果</strong>
+在你的回合開始時，目標你可以看見的所有我方生物恢復10HP。如果你的等級高於20級，改為恢復20點HP；等級高於40級，改為恢復30點HP。（我方生物可以拒絕此效果）。</p>
+<p><strong>解除效果</strong>
+選擇一個你可以看見的目標，目標生物的HP立刻恢復至其最大值，且解除目標所承受的所有負面狀態。</p>
+<h3 id="塔格爾鮮血證言">塔格爾（鮮血證言）<a hidden class="anchor" aria-hidden="true" href="#塔格爾鮮血證言">#</a></h3>
+<p><strong>範疇</strong>：增生、過度生長</p>
+<p><strong>融併效果</strong>
+選擇最多3個你可以看見的目標生物，以1個技能行動建立1項「繁盛之歌」進度，這個進度在建立時為0，進度最大為3。繁盛之歌除以下述方式外，無法以其他方法增加進度，且你同時間只能擁有1項繁盛之歌進度。</p>
+<p>當你的回合開始時，如果你擁有1項繁盛之歌進度，則檢查下列條件，並執行對應的效果：</p>
+<ul>
+<li>如果繁盛之歌的進度為0，且所有你選擇的目標生物非處於危急狀態，則目標生物HP立刻恢復至其HP最大值。繁盛之歌的進度+1。</li>
+<li>如果繁盛之歌的進度為1，且所有你選擇的目標生物的HP是其HP的最大值，則全部目標生物的力量與敏捷提升1個骰子等級。繁盛之歌的進度+1。</li>
+<li>如果繁盛之歌的進度為2，且所有你選擇的目標生物的HP是其HP的最大值，則全部目標生物立刻分別進行1次攻擊行動，且這次攻擊行動造成額外5點傷害。繁盛之歌的進度+1。</li>
+<li>如果繁盛之歌的進度為3，且所有你選擇的目標生物的HP是其HP的最大值，則全部目標生物立刻失去戰鬥能力（死亡）。</li>
+</ul>
+<p><strong>解除效果</strong>
+在這個場景除了你以外的所有生物，立刻恢復等同於你的HP最大值數量的HP，如果這些生物已經恢復至其HP最大值，但還有剩餘未恢復的數量，則這些生物立刻失去行動能力（死亡）。</p>
+<h2 id="祕源範例">祕源範例<a hidden class="anchor" aria-hidden="true" href="#祕源範例">#</a></h2>
+<h3 id="鍛造的祕源">鍛造的祕源<a hidden class="anchor" aria-hidden="true" href="#鍛造的祕源">#</a></h3>
+<p><strong>範疇</strong>：火焰、高熱、金屬</p>
+<p><strong>融併效果</strong>
+你具有火焰傷害抗性。
+你造成的火焰傷害無視抗性。</p>
+<p><strong>解除效果</strong>
+當你解除這個祕源時，選擇鑄造或焚毀效果。</p>
+<ul>
+<li><strong>鑄造</strong>：你製造出一個基礎的護甲、盾牌或武器。當你再次使用這個效果時，先前使用這個效果製造的護甲、盾牌或武器就會解消。你以此法製造的武器會造成火焰而非物理傷害。</li>
+<li><strong>焚毀</strong>：選擇目標你可以看見的任意數量的生物，目標生物承受30點火焰傷害。此效果造成的傷害無視抗性。</li>
+</ul>
+<h3 id="寒冰的祕源">寒冰的祕源<a hidden class="anchor" aria-hidden="true" href="#寒冰的祕源">#</a></h3>
+<p><strong>範疇</strong>：寒冷、冰、寂靜</p>
+<p><strong>融併效果</strong>
+你具有冰凍傷害的抗性，並且不會被激怒。
+你造成的冰凍傷害無視抗性。</p>
+<p><strong>解除效果：冰河時代</strong>
+選擇目標你可以看見的任意數量的生物，目標生物承受30點冰凍傷害。此效果造成的傷害無視抗性。</p>
+<h3 id="門扉的秘源">門扉的秘源<a hidden class="anchor" aria-hidden="true" href="#門扉的秘源">#</a></h3>
+<p><strong>範疇</strong>：空間、穿行、虛空</p>
+<p><strong>融併效果</strong>
+你具有黑暗傷害的抗性。
+你的魔法防禦+1</p>
+<p><strong>解除效果</strong>
+當你解除這個秘源時，選擇湮滅或折曲效果。</p>
+<ul>
+<li><strong>湮滅</strong>：選擇你可以看見的任意數量的生物，這些生物承受30點黑暗傷害。此效果造成的傷害無視抗性。</li>
+<li><strong>折曲</strong>：你和最多5個願意接受折曲效果的生物立刻傳送到你曾經到訪過的1個地點，該地點距離原點不能超過1個旅行日。</li>
+</ul>
+<h3 id="知識的秘源">知識的秘源<a hidden class="anchor" aria-hidden="true" href="#知識的秘源">#</a></h3>
+<p><strong>範疇</strong>：知識、啟示、理解</p>
+<p><strong>融併效果</strong>
+你能聽、說、讀、寫所有語言
+你的洞察力視為提高一個等級，最高為d12</p>
+<p><strong>解除效果</strong>
+你向GM提問一個問題，GM必須告訴你真實的答案。描述你在劇情中是如何受到啟發或獲得靈感。這個解除效果被使用後，在下一次黎明時才能再次使用，此外，你不能重複詢問相似的問題，對於問題是否相似，由GM裁定。</p>
+<h3 id="神樹的秘源">神樹的秘源<a hidden class="anchor" aria-hidden="true" href="#神樹的秘源">#</a></h3>
+<p><strong>範疇</strong>：大地、植物、毒素</p>
+<p><strong>融併效果</strong>
+你具有大地及毒素傷害的抗性，並且免疫中毒狀態
+每當你回復HP時，你額外回復5點HP</p>
+<p><strong>解除效果</strong>
+選擇目標你可以看見的任意數量的生物（你也可以選擇自己），每個目標生物解除中毒狀態，並且恢復40點HP，如果你達到20等或更高，改為恢復50點HP；達到40等或更高，改為恢復60點HP。</p>
+<h3 id="蒼穹的秘源">蒼穹的秘源<a hidden class="anchor" aria-hidden="true" href="#蒼穹的秘源">#</a></h3>
+<p><strong>範疇</strong>：霧、雨、風暴</p>
+<p><strong>融併效果</strong>
+你具有大氣與電擊傷害的抗性。
+你可以使用一個動作對距你所處位置兩個旅行天內的地點進行準確的天氣預測，GM會告訴你該地的天氣狀況。</p>
+<p><strong>解除效果</strong>
+選擇目標你可以看見的任意數量的生物，每個目標生物承受30點電擊傷害。此效果造成的傷害無視抗性。</p>
+<h3 id="利刃的秘源">利刃的秘源<a hidden class="anchor" aria-hidden="true" href="#利刃的秘源">#</a></h3>
+<p><strong>範疇</strong>：征服、英雄主義、領導</p>
+<p><strong>融併效果</strong>
+你的攻擊額外造成5點傷害，且你造成的所有傷害都視為不具有屬性（因此不受加成與抗性的影響）。只要你和此秘源處於融併狀態，你的攻擊造成的傷害都不具有屬性。</p>
+<p>當你進行一次攻擊，你可以讓該次攻擊具有多重擊（任意數量）特性。如果你這麼做，在該多重擊攻擊結算完成後，此秘源自動解除。以此法解除不視為自願解除。</p>
+<p><strong>解除效果</strong>
+無。</p>
+<h3 id="高塔的秘源">高塔的秘源<a hidden class="anchor" aria-hidden="true" href="#高塔的秘源">#</a></h3>
+<p><strong>範疇</strong>：審判、守護、犧牲</p>
+<p><strong>融併效果</strong>
+每當你召喚這個秘源，選擇一種傷害屬性：大氣、電擊、黑暗、大地、火焰或冰凍。直到這個秘源解除前，除你以外，每個在當前場景的你的盟友，都具有你所選屬性的抗性。</p>
+<p><strong>解除效果</strong>
+選擇目標你可以看見的任意數量的生物，每個目標生物承受30點光耀傷害。此效果造成的傷害無視抗性。</p>
+<h3 id="命輪的秘源">命輪的秘源<a hidden class="anchor" aria-hidden="true" href="#命輪的秘源">#</a></h3>
+<p><strong>範疇</strong>：命運、速度、時間</p>
+<p><strong>融併效果</strong>
+你免疫緩慢。
+你的防禦+1</p>
+<p><strong>解除效果</strong>
+選擇目標你可以看見的任意數量的生物，每個目標生物承受緩慢效果。如果目標生物已經處於緩慢效果，則改成該目標生物在下個他們的回合中減少一個可執行的動作（最少為0）</p>
+<hr>
+<p>本文同步發佈於<a href="https://vocus.cc/article/678c8528fd897800012cd473">方格子「勤嬉軒」</a></p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/fabula-ultima/">Fabula Ultima</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87/">TRPG規則</a></li>
+      <li><a href="http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/">TRPG規則翻譯</a></li>
+    </ul>
+  </footer><div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "qin-xi-xuan" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">勤嬉軒</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
