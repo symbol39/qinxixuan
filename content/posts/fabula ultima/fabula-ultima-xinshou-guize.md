@@ -1,10 +1,10 @@
 +++
 date = '2024-09-06T16:57:00+08:00'
 draft = false
-title = 'Fabula Ultima：新手規則指南'
+title = 'Fabula Ultima 最終物語 ：新手規則指南'
 categories = ["TRPG"]
 tags = ["TRPG規則", "TRPG規則翻譯", "最終物語", "Fabula Ultima", ]
-summary = '整理遊玩 Fabula Ultima 需要瞭解的基本規則，幫助玩家在最短時間內建立基礎認識，並能順利創角、開始遊戲。'
+summary = '整理遊玩 Fabula Ultima 最終物語 需要瞭解的基本規則，幫助玩家在最短時間內建立基礎認識並開始遊戲。'
 showtoc = true
 tocopen = true
 +++
@@ -349,7 +349,3 @@ FU戰鬥過程的道具使用較為簡化，採用點數制的方式，玩家在
 如果你想看看Fabula Ultima中有什麼可遊玩的職業，可以看看這篇：[【TRPG】Fabula Ultima：職業列表](https://vocus.cc/article/678c8527fd897800012cd461)
 
 祝福大家都玩得愉快！
-
----
-
-本文同步發佈於[方格子「勤嬉軒」](https://vocus.cc/article/678c8528fd897800012cd486)
