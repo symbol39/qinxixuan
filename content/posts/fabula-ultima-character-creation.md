@@ -25,7 +25,7 @@ tocopen = true
 
 是的，相信藉由上面的例子，你應該也發現，建立身分的一個簡單方式，就是用一句「●●的◼◼」來定位你的角色，●●是形容詞，◼◼則通常是某種職業，只要用類似的句式，你就可以很快地勾勒出你的角色。
 
-建立身份除了幫助你定下基礎，讓你對於後續創立角色的方向有所依循外，「身份」在遊戲中同時也是一項重要的「資源」，有興趣的玩家可以參考[Fabula Ultima 最終物語 ：新手規則指南](https://pawntoh.com/posts/fabula-ultima-xinshou-guize/)。
+建立身份除了幫助你定下基礎，讓你對於後續創立角色的方向有所依循外，「身份」在遊戲中同時也是一項重要的「資源」，有興趣的玩家可以參考[Fabula Ultima 最終物語 ：新手規則指南](https://pawntoh.com/posts/fabula-ultima-beginner-guide/)。
 
 # 選擇或建立主題（Theme）
 
@@ -51,7 +51,7 @@ tocopen = true
 
 玩家可以從上表選擇，也可以就上表的主題做適合角色的改動，當然也能自己定義全新的主題——如果是自己創作的主題，建議與GM經過討論，並且寫下明確的文字描述。
 
-和身份相同，「主題」也是角色在遊戲中能夠運用的資源之一，詳細可參考[Fabula Ultima 最終物語 ：新手規則指南](https://pawntoh.com/posts/fabula-ultima-xinshou-guize/)。
+和身份相同，「主題」也是角色在遊戲中能夠運用的資源之一，詳細可參考[Fabula Ultima 最終物語 ：新手規則指南](https://pawntoh.com/posts/fabula-ultima-beginner-guide/)。
 
 # 選擇或建立家鄉（起源地）
 
@@ -97,7 +97,7 @@ tocopen = true
 * 旅人
 * 武器大師
 
-#計算角色各項能力值的基礎骰子等級
+# 計算角色各項能力值的基礎骰子等級
 
 在FU中，角色擁有以下4種能力值：
 
@@ -114,7 +114,7 @@ tocopen = true
 
 >例：玩家胖胖希望扮演一名強壯的騎士，所以他選擇了「d10、d10、d6、d6」的組合，並將d10分配到力量與敏捷，然後將d6分配到洞察力與意志。
 
-如果你還不是很瞭解骰子等級將對遊戲的進行有什麼影響，可以參考[Fabula Ultima 最終物語 ：新手規則指南](https://pawntoh.com/posts/fabula-ultima-xinshou-guize/)。
+如果你還不是很瞭解骰子等級將對遊戲的進行有什麼影響，可以參考[Fabula Ultima 最終物語 ：新手規則指南](https://pawntoh.com/posts/fabula-ultima-beginner-guide/)。
 
 # 計算角色的HP與MP
 
@@ -148,7 +148,7 @@ tocopen = true
 
 # 購買起始裝備
 
-玩家獲得500元購買起始裝備，可選購的裝備請見：[Fabula Ultima：裝備清單](https://pawntoh.com/posts/fabula-ultima/fabula-ultima-zhuangbei/)
+玩家獲得500元購買起始裝備，可選購的裝備請見：[Fabula Ultima：基礎裝備列表](https://pawntoh.com/posts/fabula-ultima-gear-list/)
 
 原則上，玩家只能購買基礎武器、基礎護甲與盾牌，如果你想購買稀有道具或載具，請與你的GM及其他夥伴討論。
 
@@ -163,7 +163,7 @@ tocopen = true
 
 # 獲得你的起始Fabula points
 玩家的角色獲得3點Fabula points。
-什麼是Fabula points？請參考[Fabula Ultima 最終物語 ：新手規則指南](https://pawntoh.com/posts/fabula-ultima-xinshou-guize/)。
+什麼是Fabula points？請參考[Fabula Ultima 最終物語 ：新手規則指南](https://pawntoh.com/posts/fabula-ultima-beginner-guide/)。
 
 # 最後修飾
 你已經決定好你的角色的名字了嗎？如果還沒決定，快幫他想一個吧，可以的話再多幫你的角色加上一些細節，例如他的外貌特徵，有沒有什麼特別的習慣或怪癖等等。
