@@ -1,5 +1,5 @@
 +++
-date = '2024-09-06T16:57:00+08:00'
+date = '2024-09-12T16:57:00+08:00'
 draft = false
 title = 'Fabula Ultima 最終物語 ：新手規則指南'
 categories = ["TRPG"]
