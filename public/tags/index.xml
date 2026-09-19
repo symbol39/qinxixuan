@@ -23,6 +23,13 @@
       <description></description>
     </item>
     <item>
+      <title>世界觀</title>
+      <link>http://localhost:1313/tags/%E4%B8%96%E7%95%8C%E8%A7%80/</link>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E4%B8%96%E7%95%8C%E8%A7%80/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>最終物語</title>
       <link>http://localhost:1313/tags/%E6%9C%80%E7%B5%82%E7%89%A9%E8%AA%9E/</link>
       <pubDate>Sat, 12 Sep 2026 00:00:00 +0800</pubDate>
@@ -44,10 +51,38 @@
       <description></description>
     </item>
     <item>
+      <title>Aurence</title>
+      <link>http://localhost:1313/tags/aurence/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/aurence/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>TRPG規則翻譯</title>
       <link>http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/</link>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/tags/trpg%E8%A6%8F%E5%89%87%E7%BF%BB%E8%AD%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>勢力</title>
+      <link>http://localhost:1313/tags/%E5%8B%A2%E5%8A%9B/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E5%8B%A2%E5%8A%9B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>組織</title>
+      <link>http://localhost:1313/tags/%E7%B5%84%E7%B9%94/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E7%B5%84%E7%B9%94/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>輝金世界</title>
+      <link>http://localhost:1313/tags/%E8%BC%9D%E9%87%91%E4%B8%96%E7%95%8C/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E8%BC%9D%E9%87%91%E4%B8%96%E7%95%8C/</guid>
       <description></description>
     </item>
     <item>
@@ -65,24 +100,10 @@
       <description></description>
     </item>
     <item>
-      <title>輝金世界</title>
-      <link>http://localhost:1313/tags/%E8%BC%9D%E9%87%91%E4%B8%96%E7%95%8C/</link>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E8%BC%9D%E9%87%91%E4%B8%96%E7%95%8C/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Cairn 2e</title>
       <link>http://localhost:1313/tags/cairn-2e/</link>
       <pubDate>Sat, 29 Aug 2026 13:48:03 +0800</pubDate>
       <guid>http://localhost:1313/tags/cairn-2e/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>世界觀</title>
-      <link>http://localhost:1313/tags/%E4%B8%96%E7%95%8C%E8%A7%80/</link>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E4%B8%96%E7%95%8C%E8%A7%80/</guid>
       <description></description>
     </item>
     <item>
@@ -97,6 +118,13 @@
       <link>http://localhost:1313/tags/%E7%9F%AD%E7%AF%87/</link>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/tags/%E7%9F%AD%E7%AF%87/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NPC名錄</title>
+      <link>http://localhost:1313/tags/npc%E5%90%8D%E9%8C%84/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/npc%E5%90%8D%E9%8C%84/</guid>
       <description></description>
     </item>
   </channel>

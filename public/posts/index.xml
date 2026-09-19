@@ -30,6 +30,59 @@
       <description>Fabula Ultima 最終物語 的盾牌、護甲與武器裝備數值一覽表。</description>
     </item>
     <item>
+      <title>輝金世界中心頁</title>
+      <link>http://localhost:1313/posts/aurence-centerpage/</link>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/aurence-centerpage/</guid>
+      <description>&lt;p&gt;&lt;em&gt;塔斯菲亞王國剛結束一場邊疆戰爭，而在新征服的山脈下，眾人發現了滿是黃金的地下城——當貴族、商人與冒險者為黃金紛至沓來，你會如何在這場瘋狂的黃金熱中找到自己的位置？&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;輝金世界是一個發生在淘金熱時代邊疆村落的原創奇幻TRPG設定：地城探索、經濟模擬與政治陰謀交織，玩家可以成為他們想扮演的角色，盡情探索這個世界。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;你的冒險，將為你帶來財富與名聲，或者——你是那個傻傻替人數鈔票的？&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;世界觀故事&#34;&gt;世界觀故事&lt;/h1&gt;
+&lt;details&gt;
+&lt;summary&gt;世界觀導入：開端&lt;/summary&gt;
+&lt;p&gt;塔斯菲亞曆472年8月13日。&lt;/p&gt;
+&lt;p&gt;塔斯菲亞王國第一王子——達瑞爾．卡克．塔斯菲亞，率領王國軍隊攻破卡卡瑪依族在莫加洛山內的最後一個部落據點，戰敗的卡卡瑪依族或被俘虜，或向南逃散。至此，塔斯菲亞王國正式宣告將莫加洛山及其周邊地區，納入王國的疆域。&lt;/p&gt;
+&lt;p&gt;獲勝的捷報很快傳遍王國，所以人都為此感到高興，而歐恩國王更是感到鬆了一口氣。&lt;/p&gt;
+&lt;p&gt;國王非常需要這場勝利。因為就在不久前，來自東方，自稱瓦坎國的多克利人，「佔領」了王國東境邊疆的要塞城鎮沙克羅。&lt;/p&gt;
+&lt;p&gt;佔領的過程並未發生太多衝突——多克利人的使者向沙克羅的總督表示他們只是想談筆生意——只不過恰好城鎮的圍牆外，有為數眾多的瓦坎國軍隊陪同他前來罷了。&lt;/p&gt;
+&lt;p&gt;生意是這樣的：瓦坎國長久聽聞塔斯菲亞王國極為富庶，有著豐盛的物產。又有手藝卓絕的匠人，懂得製造各種精巧的手工藝品，所以希望沙克羅能夠開放，讓瓦坎國的商人前來進行買賣，將塔斯菲亞王國精良的商品，帶回瓦坎國，讓雙方共蒙利益。&lt;/p&gt;
+&lt;p&gt;不過另外有個小小的要求，就是瓦坎國的軍隊也會進入沙克羅。沒什麼，這是為了我們共同的利益保護這個重要的商貿據點，絕對沒有其他目的。&lt;/p&gt;
+&lt;p&gt;消息傳回法爾利斯王都，朝廷分裂成了兩派（說回來他們哪一次不是分裂成兩派呢）。&lt;/p&gt;
+&lt;p&gt;但在歐恩王最後的決斷下，塔斯菲亞王國決定接受這筆「生意」。&lt;/p&gt;
+&lt;p&gt;主戰的官員自然不滿，乃至民間也起了譏嘲訕笑之聲，吟遊詩人唱起歐恩王「仁慈」之舉的歌曲，酒館了愛好議論時政的那些人，也頻頻數落國王的錯誤決定，那些議論經常以「我們王國要滅亡啦！」作結。&lt;/p&gt;
+&lt;p&gt;眼見國內輿論四起，達瑞爾在此時主動請纓，表示要將困擾王國南境已久的蠻族驅逐，讓王國向南擴張。&lt;/p&gt;
+&lt;p&gt;國王很高興，第一王子成功了。即便那些多克利人仍盤據在沙克羅，但有了這場勝利，能證明他的軍隊絕非擺設，他本人也非懦夫。他只是選擇了和平——但他也隨時可以改變心意。&lt;/p&gt;
+&lt;p&gt;意想不到的是，除了一場勝利，這場仗竟還帶來其他收穫。&lt;/p&gt;
+&lt;p&gt;勝利捷報傳來後約莫一個月，國王收到來自達瑞爾的機密信件：&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;士兵在山裡發現遺蹟。遺蹟內有數不清的黃金。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;朝廷又陷入了兩派（你知道，我說過了）。&lt;/p&gt;
+&lt;p&gt;有官員主張，在贏得這場仗後，王國該把人力物力調遣至東方，以應對瓦坎國潛在的威脅；另一派的想法則是：整座山的黃金留著不撿，肯定是白癡。&lt;/p&gt;
+&lt;p&gt;對國王而言，這確實是個兩難。&lt;/p&gt;
+&lt;p&gt;因為讓達瑞爾打這場仗，國庫當前確實亟待活水注入，但問題是想從金山獲利，他也得先投入人力資金進行開採，然而如果繼續將資源調往南方，東邊的那群狐狸不知會否趁機露出獠牙？&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pawntoh.com/posts/tasfiamining/&#34;&gt;就在此時，巴奈登公爵獻上一策&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;當後人談論起這段歷史，所有人都同意，風暴正是從這裡開始。&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;小說&#34;&gt;小說&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://pawntoh.com/posts/callofadventure/&#34;&gt;冒險的召喚&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;互動式小說（連載中）&lt;/p&gt;
+&lt;h1 id=&#34;世界設定總覽&#34;&gt;世界設定總覽&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;地理與歷史
+&lt;ul&gt;
+&lt;li&gt;塔斯菲亞王國周邊地圖（施工中）&lt;/li&gt;
+&lt;li&gt;輝金世界編年史（施工中）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;宗教與神話（施工中）&lt;/li&gt;
+&lt;li&gt;勢力與機構（施工中）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;遊戲系統與規則&#34;&gt;遊戲系統與規則&lt;/h1&gt;
+&lt;p&gt;輝金世界使用Cairn 2e規則。這是一個規則輕量、可快速開始遊戲、以裝備道具為導向的TRPG規則。&lt;/p&gt;
+&lt;p&gt;本站有規則翻譯，請參考：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pawntoh.com/posts/cairn2e-core-rules/&#34;&gt;Cairn 2e翻譯：核心規則（Core Rules）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pawntoh.com/posts/cairn2e-character-creation/&#34;&gt;Cairn 2e：角色創建&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Fabula Ultima：命化師</title>
       <link>http://localhost:1313/posts/fabula-ultima-chimerist/</link>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0800</pubDate>
@@ -73,6 +126,15 @@
 &lt;p&gt;你的技藝依靠後天勤修，又或者你是個先天特例？&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>輝金世界：莫加洛山採金業機構名錄</title>
+      <link>http://localhost:1313/posts/aurence-organization/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/aurence-organization/</guid>
+      <description>&lt;p&gt;《輝金世界：冒險的召喚》Aurence: The Call of Adventure&lt;/p&gt;
+&lt;p&gt;莫加洛山採金業　機構·公司·勢力　完整名錄　第二版&lt;/p&gt;
+&lt;p&gt;塔斯菲亞王國　王曆四七三年春　共計21家機構&lt;/p&gt;</description>
     </item>
     <item>
       <title>你的故事：第一回</title>
@@ -275,53 +337,6 @@
       <description>&lt;p&gt;奉上蒼之恩典，歐恩，塔斯菲亞王國之王，南北疆域之君主，莫加洛山暨新收諸地之領主&lt;br&gt;
 致王國境內一切公爵、伯爵、男爵、騎士、自由民，暨凡今日及後世得見此文書者：&lt;br&gt;
 王致以問候，並宣告如下。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>輝金世界中心頁</title>
-      <link>http://localhost:1313/posts/aurence-centerpage/</link>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/aurence-centerpage/</guid>
-      <description>&lt;p&gt;&lt;em&gt;塔斯菲亞王國剛結束一場邊疆戰爭，而在新征服的山脈下，眾人發現了滿是黃金的地下城——當貴族、商人與冒險者為黃金紛至沓來，你會如何在這場瘋狂的黃金熱中找到自己的位置？&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;輝金世界是一個發生在淘金熱時代邊疆村落的原創奇幻TRPG設定：地城探索、經濟模擬與政治陰謀交織，玩家將扮演冒險者，深入莫加洛山下的謎樣迷宮。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;你的冒險，將為你帶來財富與名聲——或者你是那個傻傻替人數鈔票的？&lt;/strong&gt;&lt;/p&gt;
-&lt;h1 id=&#34;世界觀故事&#34;&gt;世界觀故事&lt;/h1&gt;
-&lt;details&gt;
-&lt;summary&gt;世界觀導入：開端&lt;/summary&gt;
-&lt;p&gt;塔斯菲亞曆472年8月13日。&lt;/p&gt;
-&lt;p&gt;塔斯菲亞王國第一王子——達瑞爾．卡克．塔斯菲亞，率領王國軍隊攻破卡卡瑪依族在莫加洛山內的最後一個部落據點，戰敗的卡卡瑪依族或被俘虜，或向南逃散。至此，塔斯菲亞王國正式宣告將莫加洛山及其周邊地區，納入王國的疆域。&lt;/p&gt;
-&lt;p&gt;獲勝的捷報很快傳遍王國，所以人都為此感到高興，而歐恩國王更是感到鬆了一口氣。&lt;/p&gt;
-&lt;p&gt;國王非常需要這場勝利。因為就在不久前，來自東方，自稱瓦坎國的多克利人，「佔領」了王國東境邊疆的要塞城鎮沙克羅。&lt;/p&gt;
-&lt;p&gt;佔領的過程並未發生太多衝突——多克利人的使者向沙克羅的總督表示他們只是想談筆生意——只不過恰好城鎮的圍牆外，有為數眾多的瓦坎國軍隊陪同他前來罷了。&lt;/p&gt;
-&lt;p&gt;生意是這樣的：瓦坎國長久聽聞塔斯菲亞王國極為富庶，有著豐盛的物產。又有手藝卓絕的匠人，懂得製造各種精巧的手工藝品，所以希望沙克羅能夠開放，讓瓦坎國的商人前來進行買賣，將塔斯菲亞王國精良的商品，帶回瓦坎國，讓雙方共蒙利益。&lt;/p&gt;
-&lt;p&gt;不過另外有個小小的要求，就是瓦坎國的軍隊也會進入沙克羅。沒什麼，這是為了我們共同的利益保護這個重要的商貿據點，絕對沒有其他目的。&lt;/p&gt;
-&lt;p&gt;消息傳回法爾利斯王都，朝廷分裂成了兩派（說回來他們哪一次不是分裂成兩派呢）。&lt;/p&gt;
-&lt;p&gt;但在歐恩王最後的決斷下，塔斯菲亞王國決定接受這筆「生意」。&lt;/p&gt;
-&lt;p&gt;主戰的官員自然不滿，乃至民間也起了譏嘲訕笑之聲，吟遊詩人唱起歐恩王「仁慈」之舉的歌曲，酒館了愛好議論時政的那些人，也頻頻數落國王的錯誤決定，那些議論經常以「我們王國要滅亡啦！」作結。&lt;/p&gt;
-&lt;p&gt;眼見國內輿論四起，達瑞爾在此時主動請纓，表示要將困擾王國南境已久的蠻族驅逐，讓王國向南擴張。&lt;/p&gt;
-&lt;p&gt;國王很高興，第一王子成功了。即便那些多克利人仍盤據在沙克羅，但有了這場勝利，能證明他的軍隊絕非擺設，他本人也非懦夫。他只是選擇了和平——但他也隨時可以改變心意。&lt;/p&gt;
-&lt;p&gt;意想不到的是，除了一場勝利，這場仗竟還帶來其他收穫。&lt;/p&gt;
-&lt;p&gt;勝利捷報傳來後約莫一個月，國王收到來自達瑞爾的機密信件：&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;士兵在山裡發現遺蹟。遺蹟內有數不清的黃金。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;朝廷又陷入了兩派（你知道，我說過了）。&lt;/p&gt;
-&lt;p&gt;有官員主張，在贏得這場仗後，王國該把人力物力調遣至東方，以應對瓦坎國潛在的威脅；另一派的想法則是：整座山的黃金留著不撿，肯定是白癡。&lt;/p&gt;
-&lt;p&gt;對國王而言，這確實是個兩難。&lt;/p&gt;
-&lt;p&gt;因為讓達瑞爾打這場仗，國庫當前確實亟待活水注入，但問題是想從金山獲利，他也得先投入人力資金進行開採，然而如果繼續將資源調往南方，東邊的那群狐狸不知會否趁機露出獠牙？&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://pawntoh.com/posts/tasfiamining/&#34;&gt;就在此時，巴奈登公爵獻上一策&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;當後人談論起這段歷史，所有人都同意，風暴正是從這裡開始。&lt;/p&gt;
-&lt;/details&gt;
-&lt;p&gt;&lt;a href=&#34;https://pawntoh.com/posts/callofadventure/&#34;&gt;冒險的召喚&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;互動式小說（連載中）&lt;/p&gt;
-&lt;h1 id=&#34;世界設定總覽&#34;&gt;世界設定總覽&lt;/h1&gt;
-&lt;p&gt;*地理與歷史
-*塔斯菲亞王國周邊地圖（施工中）
-*輝金世界編年史（施工中）
-*宗教與神話（施工中）
-*勢力與機構（施工中）&lt;/p&gt;
-&lt;h1 id=&#34;遊戲系統與規則&#34;&gt;遊戲系統與規則&lt;/h1&gt;
-&lt;p&gt;輝金世界使用Cairn 2e規則。這是一個規則輕量、可快速開始遊戲、以裝備道具為導向的TRPG規則。&lt;/p&gt;
-&lt;p&gt;本站有規則翻譯，請參考：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://pawntoh.com/posts/cairn2e-core-rules/&#34;&gt;Cairn 2e翻譯：核心規則（Core Rules）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://pawntoh.com/posts/cairn2e-character-creation/&#34;&gt;Cairn 2e：角色創建&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>【TRPG】Cairn 2e翻譯：fletchwind（箭風者）</title>

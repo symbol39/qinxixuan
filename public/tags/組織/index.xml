@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>組織 on 勤嬉軒</title>
+    <link>http://localhost:1313/tags/%E7%B5%84%E7%B9%94/</link>
+    <description>Recent content in 組織 on 勤嬉軒</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E7%B5%84%E7%B9%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>輝金世界：組織與勢力</title>
+      <link>http://localhost:1313/posts/aurence-organization/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/aurence-organization/</guid>
+      <description>塔斯菲亞王國王曆四七三年春，莫加洛山採金業共計21家組織與相關勢力的完整名錄，含類型、關鍵人物、基本資訊。</description>
+    </item>
+  </channel>
+</rss>
