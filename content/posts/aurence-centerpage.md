@@ -66,7 +66,7 @@ tags = ["世界觀"]
 
 [冒險的召喚](https://pawntoh.com/posts/callofadventure/)
 
-互動式小說（連載中）
+[互動式小說（連載中）](https://pawntoh.com/posts/aurence-gamestory-directionsandindex/)
 
 # 世界設定總覽
 

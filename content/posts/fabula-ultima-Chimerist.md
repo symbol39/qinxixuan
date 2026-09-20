@@ -1,7 +1,7 @@
 +++
 date = '2026-08-31T00:00:00+08:00'
 draft = false
-title = 'Fabula Ultima：命化師'
+title = 'Fabula Ultima：命化師 Chimerist'
 categories = ["trpg"]
 tags = ["Fabula Ultima", "TRPG規則", "TRPG規則翻譯"]
 summary = '命化師（Chimerism）職業的技能介紹，包含魔力吸取、生靈大使、命化儀式與法術模仿等能力。'

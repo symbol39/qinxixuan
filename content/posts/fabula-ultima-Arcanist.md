@@ -1,7 +1,7 @@
 +++
 date = '2026-08-31T00:00:00+08:00'
 draft = false
-title = 'Fabula Ultima：奧術師與祕源'
+title = 'Fabula Ultima：奧術師與祕源 Arcanist'
 categories = ["trpg"]
 tags = ["Fabula Ultima", "TRPG規則", "TRPG規則翻譯"]
 summary = '奧術師職業的技能，以及與祕源建立連結、召喚、融併與解除的完整規則，並附上多個祕源範例。'
@@ -77,7 +77,7 @@ summary = '奧術師職業的技能，以及與祕源建立連結、召喚、融
 
 每個祕源都與某些概念結合，GM應該依據這些概念設想與該祕源建立連接需要的考驗或程序，並且界定奧術法則儀式的效果射程。
 
-## 伊爾蘭的祕源
+## 伊爾蘭的祕源（自創祕源）
 
 ### 禦者
 
