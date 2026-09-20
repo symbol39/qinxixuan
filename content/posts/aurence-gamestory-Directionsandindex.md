@@ -22,4 +22,5 @@ summary = '本文說明輝金世界連載互動小說的運作規則，並提供
 # 小說連結
 
 [你的故事：第一回](https://pawntoh.com/posts/your-story1/)
+
 [你的故事：第二回](https://pawntoh.com/posts/your-story2/)
