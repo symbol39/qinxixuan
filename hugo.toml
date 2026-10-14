@@ -1,5 +1,7 @@
 baseURL = 'https://pawntoh.com/'
-locale = 'en-us'
+locale = 'zh-TW'
+languageCode = 'zh-TW'
+defaultContentLanguage = 'zh-tw'
 title = '勤嬉軒'
 theme = "PaperMod"
 disqusShortname = "qin-xi-xuan"
@@ -41,6 +43,7 @@ disqusShortname = "qin-xi-xuan"
 [params]
   comments = true
   description = "勤嬉軒——TRPG翻譯、原創世界觀輝金世界、桌遊、電玩和影視心得分享"
+　author = "勤嬉軒"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
