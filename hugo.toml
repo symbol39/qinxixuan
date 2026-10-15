@@ -44,7 +44,7 @@ disqusShortname = "qin-xi-xuan"
   comments = true
   description = "勤嬉軒——TRPG翻譯、原創世界觀輝金世界、桌遊、電玩和影視心得分享"
   author = "勤嬉軒"
-  images = ["images/og-default"]
+  images = ["images/og-default.jpg"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
