@@ -1,6 +1,6 @@
 +++
 date = '2026-08-31T00:00:00+08:00'
-draft = true
+draft = false
 title = '塔斯菲亞王國王曆四七三年春公開特許文書'
 categories = ["Aurence"]
 tags = ["輝金世界", "Aurence", "世界觀", "塔斯菲亞王國法律", "輝金世界文獻"]
