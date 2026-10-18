@@ -1,35 +1,36 @@
 +++
-date = '2026-10-16T00:00:00+08:00'
+date = '2026-10-18T00:00:00+08:00'
 draft = false
 title = 'Space empires 4x 基本規則筆記'
 categories = ["boardgames"]
 tags = ["桌遊","桌遊規則","桌遊規則筆記","桌遊規則翻譯","1人桌遊","2人桌遊","3人桌遊","4人桌遊"]
+summary = '本文翻譯並整理Space empires 4x基本規則'
+showtoc = true
+tocopen = false
 +++
 
 本文就Space empires 4x基本規則進行筆記整理。
 
-<!--more-->
-
 # 譯詞對照
 - Group 艦隊
-Colony Ships 殖民船
-Miners 採礦船
-MS Pipelines 商船
-Group counter 艦隊標記
-System 恆星系
-Unit 單位
-Decoy 誘餌
-Numeral Markers　數量標記
-Homeworld 家園星系
-Colonies 殖民星系
-Barren 荒蕪
-Terra-forming Technology 地球化科技
-Combat Screening 戰鬥警戒
-Fleet Size Bonus 艦隊規模加成
-firing round 交戰輪
-Tactics Technology 戰術科技
-Attack Technology Level 進攻科技等級
-Defense Technology Level 防守科技等級
+- Colony Ships 殖民船
+- Miners 採礦船
+- MS Pipelines 商船
+- Group counter 艦隊標記
+- System 恆星系
+- Unit 單位
+- Decoy 誘餌
+- Numeral Markers　數量標記
+- Homeworld 家園星系
+- Colonies 殖民星系
+- Barren 荒蕪
+- Terra-forming Technology 地球化科技
+- Combat Screening 戰鬥警戒
+- Fleet Size Bonus 艦隊規模加成
+- firing round 交戰輪
+- Tactics Technology 戰術科技
+- Attack Technology Level 進攻科技等級
+- Defense Technology Level 防守科技等級
 # 術語
 - 艦隊：1到6艘同一類型的太空船，以艦隊標記呈現。
 - 太空船：或稱「船艦」。除了3種「非艦隊船艦」（nongroup ships。即殖民船、採礦船和商船）以外，其他太空船總是以1個艦隊標記（Group counter）呈現，即便艦隊中只有1艘太空船。**只有同類型和相同科技等級的船艦可以組成同一艦隊**。
